@@ -1,0 +1,8 @@
+{
+  "default": {
+    "env_url": "",
+    "app_id": "",
+    "tenant_id": "",
+    "client_secret": ""
+  }
+}

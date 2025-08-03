@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>D365 Plugin AI Agent</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Monaco Editor loader for VSCode UI -->
+  <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
+  <style>
+    body { background: #fafafa; }
+    .bubble-user { background: #000; color: #fff; border-bottom-right-radius: 1.5rem !important; border-top-right-radius: .3rem !important; }
+    .bubble-bot { background: #ececec; color: #222; border-bottom-left-radius: 1.5rem !important; border-top-left-radius: .3rem !important; }
+    .avatar-bot { width: 32px; height: 32px; background:#000; color:#fff; font-weight: bold; font-size: 1rem; display: flex; align-items: center; justify-content: center; border-radius: 999px; margin-right: .5rem; flex-shrink: 0; }
+    .avatar-user { width: 32px; height: 32px; background:#fff; color:#000; border:1px solid #111; font-weight: bold; font-size: 1rem; display: flex; align-items: center; justify-content: center; border-radius: 999px; margin-left: .5rem; flex-shrink: 0; }
+    .chat-scroll::-webkit-scrollbar { width: 6px; background: #eee;}
+    .chat-scroll::-webkit-scrollbar-thumb { background: #e5e5e5;}
+    /* VSCode UI styles */
+    #vscode-workspace-ui { background: #181818; }
+    .sidebar { background: #20232a; }
+    .tab-active { background: #252526; border-bottom: 2px solid #2d72d6; }
+    .tab { background: #23272e; color:#bbb; }
+    .tab-close { color:#666; margin-left:6px; cursor:pointer;}
+    #vscode-editor { background: #1e1e1e !important; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== Classic Landing UI ========== -->
+  <header class="mx-auto max-w-6xl py-6 text-2xl font-semibold text-center">🤖 D365 Plugin AI Agent</header>
+  <div class="flex gap-4 my-6 justify-center">
+    <a href="/login/azdo" class="rounded bg-[#0078d7] text-white px-4 py-2">Connect Azure DevOps</a>
+  </div>
+
+  <main class="flex flex-col items-center justify-center min-h-[70vh]">
+    <div class="w-full max-w-md mx-auto rounded-2xl shadow-xl bg-white flex flex-col" style="min-height: 500px;">
+      <div id="project-chat-history" class="flex-1 px-4 py-6 chat-scroll overflow-y-auto"
+           style="min-height:330px; max-height:330px;">
+        <div class="flex items-end mb-3">
+          <div class="avatar-bot">Hi</div>
+          <div class="bubble-bot px-4 py-2 rounded-2xl ml-1">
+            Hello! How can I assist you today with Dynamics 365 plugin project management?
+          </div>
+        </div>
+      </div>
+      <form id="project-create-form"
+            class="flex items-center gap-2 border-t border-gray-200 p-4">
+        <span class="text-lg text-gray-500 select-none">+</span>
+        <input id="project-create-input" autocomplete="off"
+               class="flex-1 bg-transparent placeholder-gray-500 focus:outline-none px-2"
+               placeholder="Ask agent to create a plugin project…" />
+        <button
+          class="grid h-9 w-9 place-content-center rounded-full bg-black text-white hover:bg-gray-800">
+          ↑
+        </button>
+      </form>
+    </div>
+    <section class="w-full max-w-2xl mt-12">
+      <h2 class="mb-4 text-lg font-medium">Your Plugin Workspaces</h2>
+      <ul id="workspace-list"
+          class="grid gap-5 sm:grid-cols-2 md:grid-cols-3"></ul>
+    </section>
+  </main>
+
+  <!-- ===== Main App UI (classic agent + textarea editor, can be kept or removed) ===== -->
+  <section id="main-app-ui" class="hidden">
+    <header class="mx-auto mt-20 max-w-4xl text-center">
+      <h3 class="mb-2 text-lg font-medium"><span id="current-project-label"></span></h3>
+      <button id="change-workspace-btn" class="rounded-lg bg-black px-4 py-1 text-sm text-white">
+        ← Back to workspaces
+      </button>
+      <button onclick="showAzdoModal()" class="rounded bg-blue-700 text-white px-4 py-2 mt-4">
+        Push to Azure DevOps
+      </button>
+    </header>
+    <div class="flex gap-6 mt-10 justify-center w-full max-w-5xl mx-auto">
+      <div class="flex-1">
+        <div class="w-full card p-6">
+          <div id="chat-history" class="space-y-4 overflow-y-auto pb-4" style="max-height:260px">
+            <div class="bubble-bot inline-block rounded-2xl px-4 py-2">
+              👋 Hi! Ask me to create, build, deploy, or manage your plugin projects!
+            </div>
+          </div>
+          <form id="chat-form" class="mt-4 flex gap-3">
+            <input id="msg-input" autocomplete="off"
+                   class="flex-1 rounded-xl border border-gray-300 px-4 py-2 focus:outline-none"
+                   placeholder="Type a command…" />
+            <button class="rounded-xl bg-black px-6 py-2 font-semibold text-white hover:bg-gray-800">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+      <div id="code-editor-panel" class="w-[400px] bg-white rounded-2xl shadow p-4 flex flex-col">
+        <h4 class="font-semibold mb-2 text-base">Plugin Files</h4>
+        <ul id="plugin-file-list" class="mb-4 space-y-2"></ul>
+        <div id="file-edit-container" class="hidden flex-1 flex flex-col">
+          <div class="flex items-center justify-between mb-2">
+            <span id="editing-file-label" class="text-sm font-medium"></span>
+            <button id="close-file-btn" class="text-xs text-gray-500 hover:text-gray-800">✕</button>
+          </div>
+          <textarea id="file-editor" class="font-mono text-xs border rounded w-full flex-1 p-2 mb-2 resize-none" style="min-height:220px"></textarea>
+          <button id="save-file-btn" class="rounded bg-black text-white px-3 py-1 self-end">Save</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Azure DevOps modal (unchanged) -->
+  <div id="azdo-modal" class="hidden fixed inset-0 bg-black/40 flex items-center justify-center z-60">
+    <div class="bg-white p-6 rounded-xl shadow-xl max-w-md w-full">
+      <h2 class="mb-3 text-lg font-semibold">Select Azure DevOps Project</h2>
+      <select id="azdo-project-select" class="w-full mb-4 px-3 py-2 border rounded"></select>
+      <div class="flex gap-4 justify-end">
+        <button id="azdo-cancel-btn" class="px-4 py-2 rounded bg-gray-200">Cancel</button>
+        <button id="azdo-push-btn" class="px-4 py-2 rounded bg-blue-600 text-white">Push</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= VSCode-Style Workspace UI ================= -->
+  <section id="vscode-workspace-ui" class="hidden h-screen w-screen bg-[#181818]">
+    <div class="flex h-full">
+      <!-- Sidebar -->
+      <aside class="sidebar w-56 flex-shrink-0 flex flex-col p-2">
+        <button id="back-btn" class="rounded bg-gray-800 text-white px-3 py-1 mb-4">← Back</button>
+        <div class="text-lg font-semibold mb-3 text-gray-100">Files</div>
+        <ul id="vscode-plugin-file-list" class="flex-1 space-y-1 overflow-y-auto"></ul>
+      </aside>
+      <!-- Main: Tabs + Monaco -->
+      <main class="flex-1 flex flex-col">
+        <div id="vscode-tab-bar" class="flex border-b border-gray-700"></div>
+        <div id="vscode-editor" class="flex-1" style="height:calc(100vh - 32px); background: #1e1e1e;"></div>
+      </main>
+      <!-- Chat agent -->
+      <section id="vscode-chat-panel" class="w-96 bg-[#20232a] border-l border-gray-700 flex flex-col p-2">
+        <div class="font-semibold mb-2 text-gray-100">🤖 Plugin Agent</div>
+        <div id="vscode-chat-history" class="flex-1 overflow-y-auto text-xs mb-2" style="min-height:100px; max-height:60vh"></div>
+        <form id="vscode-chat-form" class="flex gap-2">
+          <input id="vscode-msg-input" class="flex-1 rounded px-2 py-1 bg-[#23272e] text-gray-100 border border-gray-700 focus:outline-none"
+                 placeholder="Ask agent..." autocomplete="off"/>
+          <button class="rounded bg-blue-700 px-3 py-1 text-white">Send</button>
+        </form>
+      </section>
+    </div>
+  </section>
+  <!-- ================= End VSCode Workspace UI ================= -->
+
+  <!-- SCRIPTS -->
+  <script src="/static/chat.js"></script>
+  <script src="/static/vscode_workspace.js"></script>
+</body>
+</html>

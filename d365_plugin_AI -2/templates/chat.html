@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>D365 Plugin AI Agent</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: #fafafa; }
+    .bubble-user {
+      background: #000; color: #fff;
+      border-bottom-right-radius: 1.5rem !important;
+      border-top-right-radius: .3rem !important;
+    }
+    .bubble-bot {
+      background: #ececec; color: #222;
+      border-bottom-left-radius: 1.5rem !important;
+      border-top-left-radius: .3rem !important;
+    }
+    .avatar-bot {
+      width: 32px; height: 32px; background:#000; color:#fff;
+      font-weight: bold; font-size: 1rem; display: flex; align-items: center; justify-content: center;
+      border-radius: 999px;
+      margin-right: .5rem;
+      flex-shrink: 0;
+    }
+    .avatar-user {
+      width: 32px; height: 32px; background:#fff; color:#000; border:1px solid #111;
+      font-weight: bold; font-size: 1rem; display: flex; align-items: center; justify-content: center;
+      border-radius: 999px;
+      margin-left: .5rem;
+      flex-shrink: 0;
+    }
+    .chat-scroll::-webkit-scrollbar { width: 6px; background: #eee;}
+    .chat-scroll::-webkit-scrollbar-thumb { background: #e5e5e5;}
+  </style>
+</head>
+<body>
+
+  <header class="mx-auto max-w-6xl py-6 text-2xl font-semibold text-center">🤖 D365 Plugin AI Agent</header>
+
+  <!-- Only Azure DevOps connect -->
+  <div class="flex gap-4 my-6 justify-center">
+    <a href="/login/azdo" class="rounded bg-[#0078d7] text-white px-4 py-2">Connect Azure DevOps</a>
+  </div>
+
+  <main class="flex flex-col items-center justify-center min-h-[70vh]">
+    <div class="w-full max-w-md mx-auto rounded-2xl shadow-xl bg-white flex flex-col" style="min-height: 500px;">
+
+      <!-- Chat history area -->
+      <div id="project-chat-history" class="flex-1 px-4 py-6 chat-scroll overflow-y-auto"
+           style="min-height:330px; max-height:330px;">
+
+        <!-- Welcome bubble -->
+        <div class="flex items-end mb-3">
+          <div class="avatar-bot">Hi</div>
+          <div class="bubble-bot px-4 py-2 rounded-2xl ml-1">
+            Hello! How can I assist you today with Dynamics 365 plugin project management?
+          </div>
+        </div>
+      </div>
+
+      <!-- Input area -->
+      <form id="project-create-form"
+            class="flex items-center gap-2 border-t border-gray-200 p-4">
+        <span class="text-lg text-gray-500 select-none">+</span>
+        <input id="project-create-input" autocomplete="off"
+               class="flex-1 bg-transparent placeholder-gray-500 focus:outline-none px-2"
+               placeholder="Ask agent to create a plugin project…" />
+        <button
+          class="grid h-9 w-9 place-content-center rounded-full bg-black text-white hover:bg-gray-800">
+          ↑
+        </button>
+      </form>
+    </div>
+
+    <!-- Workspace list below chat -->
+    <section class="w-full max-w-2xl mt-12">
+      <h2 class="mb-4 text-lg font-medium">Your Plugin Workspaces</h2>
+      <ul id="workspace-list"
+          class="grid gap-5 sm:grid-cols-2 md:grid-cols-3"></ul>
+    </section>
+  </main>
+ 
+  <section id="main-app-ui" class="hidden">
+    <header class="mx-auto mt-20 max-w-4xl text-center">
+      <h3 class="mb-2 text-lg font-medium"><span id="current-project-label"></span></h3>
+      <button id="change-workspace-btn" class="rounded-lg bg-black px-4 py-1 text-sm text-white">
+        ← Back to workspaces
+      </button>
+      <!-- Push to Azure DevOps button -->
+    <button onclick="showAzdoModal()" class="rounded bg-blue-700 text-white px-4 py-2 mt-4">
+      Push to Azure DevOps
+    </button>
+  <!-- Full agent UI (unchanged) -->
+    </header>
+
+    <div class="w-full max-w-3xl mx-auto card mt-10 p-6">
+      <div id="chat-history" class="space-y-4 overflow-y-auto pb-4" style="max-height:260px">
+        <div class="bubble-bot inline-block rounded-2xl px-4 py-2">
+          👋 Hi! Ask me to create, build, deploy, or manage your plugin projects!
+        </div>
+      </div>
+      <form id="chat-form" class="mt-4 flex gap-3">
+        <input id="msg-input" autocomplete="off"
+               class="flex-1 rounded-xl border border-gray-300 px-4 py-2 focus:outline-none"
+               placeholder="Type a command…" />
+        <button class="rounded-xl bg-black px-6 py-2 font-semibold text-white hover:bg-gray-800">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Azure DevOps project selection modal -->
+  <div id="azdo-modal" class="hidden fixed inset-0 bg-black/40 flex items-center justify-center z-60">
+    <div class="bg-white p-6 rounded-xl shadow-xl max-w-md w-full">
+      <h2 class="mb-3 text-lg font-semibold">Select Azure DevOps Project</h2>
+      <select id="azdo-project-select" class="w-full mb-4 px-3 py-2 border rounded"></select>
+      <div class="flex gap-4 justify-end">
+        <button id="azdo-cancel-btn" class="px-4 py-2 rounded bg-gray-200">Cancel</button>
+        <button id="azdo-push-btn" class="px-4 py-2 rounded bg-blue-600 text-white">Push</button>
+      </div>
+    </div>
+  </div>
+  <script src="/static/chat.js"></script>
+</body>
+</html>
