@@ -1,0 +1,2817 @@
+{
+  "createdby": {
+    "logicalName": "createdby",
+    "displayName": "Created by",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdbyname": {
+    "logicalName": "createdbyname",
+    "displayName": "createdbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdbyyominame": {
+    "logicalName": "createdbyyominame",
+    "displayName": "createdbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdon": {
+    "logicalName": "createdon",
+    "displayName": "Created on",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfby": {
+    "logicalName": "createdonbehalfby",
+    "displayName": "Created by (delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdonbehalfbyname": {
+    "logicalName": "createdonbehalfbyname",
+    "displayName": "createdonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfbyyominame": {
+    "logicalName": "createdonbehalfbyyominame",
+    "displayName": "createdonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage": {
+    "logicalName": "entityimage",
+    "displayName": "Entity image",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage_timestamp": {
+    "logicalName": "entityimage_timestamp",
+    "displayName": "entityimage_timestamp",
+    "type": "BigInt",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage_url": {
+    "logicalName": "entityimage_url",
+    "displayName": "entityimage_url",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimageid": {
+    "logicalName": "entityimageid",
+    "displayName": "entityimageid",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "exchangerate": {
+    "logicalName": "exchangerate",
+    "displayName": "Exchange rate",
+    "type": "Decimal",
+    "targets": [],
+    "optionset": []
+  },
+  "importsequencenumber": {
+    "logicalName": "importsequencenumber",
+    "displayName": "Import sequence number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedby": {
+    "logicalName": "modifiedby",
+    "displayName": "Modified by",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedbyname": {
+    "logicalName": "modifiedbyname",
+    "displayName": "modifiedbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedbyyominame": {
+    "logicalName": "modifiedbyyominame",
+    "displayName": "modifiedbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedon": {
+    "logicalName": "modifiedon",
+    "displayName": "Modified on",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfby": {
+    "logicalName": "modifiedonbehalfby",
+    "displayName": "Modified by (delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedonbehalfbyname": {
+    "logicalName": "modifiedonbehalfbyname",
+    "displayName": "modifiedonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfbyyominame": {
+    "logicalName": "modifiedonbehalfbyyominame",
+    "displayName": "modifiedonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_eventurlspecified": {
+    "logicalName": "msdyncrm_eventurlspecified",
+    "displayName": "Event URL specified",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_eventurlspecifiedname": {
+    "logicalName": "msdyncrm_eventurlspecifiedname",
+    "displayName": "msdyncrm_eventurlspecifiedname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_marketingformid": {
+    "logicalName": "msdyncrm_marketingformid",
+    "displayName": "Form",
+    "type": "Lookup",
+    "targets": [
+      "msdyncrm_marketingform"
+    ],
+    "optionset": []
+  },
+  "msdyncrm_marketingformidname": {
+    "logicalName": "msdyncrm_marketingformidname",
+    "displayName": "msdyncrm_marketingformidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_sessionscount": {
+    "logicalName": "msdyncrm_sessionscount",
+    "displayName": "Session count",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_sessionscount_date": {
+    "logicalName": "msdyncrm_sessionscount_date",
+    "displayName": "Session count (Last Updated On)",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_sessionscount_state": {
+    "logicalName": "msdyncrm_sessionscount_state",
+    "displayName": "Session count (State)",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_usemarketingform": {
+    "logicalName": "msdyncrm_usemarketingform",
+    "displayName": "Use new form templates",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_usemarketingformname": {
+    "logicalName": "msdyncrm_usemarketingformname",
+    "displayName": "msdyncrm_usemarketingformname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_bannerimageid": {
+    "logicalName": "msdynmkt_bannerimageid",
+    "displayName": "Banner image id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_completiondate": {
+    "logicalName": "msdynmkt_completiondate",
+    "displayName": "Completion date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_linkedvirtualeventid": {
+    "logicalName": "msdynmkt_linkedvirtualeventid",
+    "displayName": "Linked Virtual Event Id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_logoimageid": {
+    "logicalName": "msdynmkt_logoimageid",
+    "displayName": "Logo image id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowanonymousregistrations": {
+    "logicalName": "msevtmgt_allowanonymousregistrations",
+    "displayName": "Allow anonymous registrations",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowanonymousregistrationsname": {
+    "logicalName": "msevtmgt_allowanonymousregistrationsname",
+    "displayName": "msevtmgt_allowanonymousregistrationsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowattendeestounmute": {
+    "logicalName": "msevtmgt_allowattendeestounmute",
+    "displayName": "Allow attendees to unmute",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowattendeestounmutename": {
+    "logicalName": "msevtmgt_allowattendeestounmutename",
+    "displayName": "msevtmgt_allowattendeestounmutename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowcameraforattendees": {
+    "logicalName": "msevtmgt_allowcameraforattendees",
+    "displayName": "Allow camera for attendees",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowcameraforattendeesname": {
+    "logicalName": "msevtmgt_allowcameraforattendeesname",
+    "displayName": "msevtmgt_allowcameraforattendeesname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowcustomagenda": {
+    "logicalName": "msevtmgt_allowcustomagenda",
+    "displayName": "Allow custom agenda",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowcustomagendaname": {
+    "logicalName": "msevtmgt_allowcustomagendaname",
+    "displayName": "msevtmgt_allowcustomagendaname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowexternalpresenters": {
+    "logicalName": "msevtmgt_allowexternalpresenters",
+    "displayName": "Do you want to allow external presenters",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowexternalpresentersname": {
+    "logicalName": "msevtmgt_allowexternalpresentersname",
+    "displayName": "msevtmgt_allowexternalpresentersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowmeetingchat": {
+    "logicalName": "msevtmgt_allowmeetingchat",
+    "displayName": "Allow meeting chat",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000000,
+        "label": "Enabled"
+      },
+      {
+        "value": 100000001,
+        "label": "Disabled"
+      },
+      {
+        "value": 100000002,
+        "label": "In-meeting only"
+      }
+    ]
+  },
+  "msevtmgt_allowmeetingchatname": {
+    "logicalName": "msevtmgt_allowmeetingchatname",
+    "displayName": "msevtmgt_allowmeetingchatname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowpstnsserstobypasslobby": {
+    "logicalName": "msevtmgt_allowpstnsserstobypasslobby",
+    "displayName": "Always let callers bypass the lobby",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowpstnsserstobypasslobbyname": {
+    "logicalName": "msevtmgt_allowpstnsserstobypasslobbyname",
+    "displayName": "msevtmgt_allowpstnsserstobypasslobbyname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowteamsmeetingreactions": {
+    "logicalName": "msevtmgt_allowteamsmeetingreactions",
+    "displayName": "Allow reactions",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_allowteamsmeetingreactionsname": {
+    "logicalName": "msevtmgt_allowteamsmeetingreactionsname",
+    "displayName": "msevtmgt_allowteamsmeetingreactionsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_attendeeengagementreport": {
+    "logicalName": "msevtmgt_attendeeengagementreport",
+    "displayName": "Attendee engagement report",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_attendeeengagementreportname": {
+    "logicalName": "msevtmgt_attendeeengagementreportname",
+    "displayName": "msevtmgt_attendeeengagementreportname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_attendeeurl": {
+    "logicalName": "msevtmgt_attendeeurl",
+    "displayName": "Teams URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_autoadmittedusers": {
+    "logicalName": "msevtmgt_autoadmittedusers",
+    "displayName": "Who can bypass the lobby?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "People in my organization and guests"
+      },
+      {
+        "value": 100000002,
+        "label": "People in my organization, trusted organizations and guests"
+      },
+      {
+        "value": 100000003,
+        "label": "Everyone"
+      },
+      {
+        "value": 100000004,
+        "label": "People I invite"
+      },
+      {
+        "value": 100000005,
+        "label": "Only me"
+      }
+    ]
+  },
+  "msevtmgt_autoadmittedusersname": {
+    "logicalName": "msevtmgt_autoadmittedusersname",
+    "displayName": "msevtmgt_autoadmittedusersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_autorecordingenabled": {
+    "logicalName": "msevtmgt_autorecordingenabled",
+    "displayName": "Record automatically",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_autorecordingenabledname": {
+    "logicalName": "msevtmgt_autorecordingenabledname",
+    "displayName": "msevtmgt_autorecordingenabledname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_autoregisterwaitlistitems": {
+    "logicalName": "msevtmgt_autoregisterwaitlistitems",
+    "displayName": "Automatically register waitlisted contacts",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_autoregisterwaitlistitemsname": {
+    "logicalName": "msevtmgt_autoregisterwaitlistitemsname",
+    "displayName": "msevtmgt_autoregisterwaitlistitemsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_baserecurrenteventid": {
+    "logicalName": "msevtmgt_baserecurrenteventid",
+    "displayName": "Base recurrent event ID",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_bookedflightreservations": {
+    "logicalName": "msevtmgt_bookedflightreservations",
+    "displayName": "Are flight reservations booked?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_bookedflightreservationsname": {
+    "logicalName": "msevtmgt_bookedflightreservationsname",
+    "displayName": "msevtmgt_bookedflightreservationsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_bookrooms": {
+    "logicalName": "msevtmgt_bookrooms",
+    "displayName": "Book rooms",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_bookroomsname": {
+    "logicalName": "msevtmgt_bookroomsname",
+    "displayName": "msevtmgt_bookroomsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_budgetallocated": {
+    "logicalName": "msevtmgt_budgetallocated",
+    "displayName": "Budget allocated",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_budgetallocated_base": {
+    "logicalName": "msevtmgt_budgetallocated_base",
+    "displayName": "Budget allocated (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_building": {
+    "logicalName": "msevtmgt_building",
+    "displayName": "Building",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_building"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_buildingname": {
+    "logicalName": "msevtmgt_buildingname",
+    "displayName": "msevtmgt_buildingname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_calendarcontent": {
+    "logicalName": "msevtmgt_calendarcontent",
+    "displayName": "HTML calendar content",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_calendarcontent_plaintext": {
+    "logicalName": "msevtmgt_calendarcontent_plaintext",
+    "displayName": "Text calendar content",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_calendarevent": {
+    "logicalName": "msevtmgt_calendarevent",
+    "displayName": "(Obsolete) Calendar event metadata",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_cateringrequired": {
+    "logicalName": "msevtmgt_cateringrequired",
+    "displayName": "Catering required?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "No"
+      },
+      {
+        "value": 100000002,
+        "label": "Yes"
+      }
+    ]
+  },
+  "msevtmgt_cateringrequiredname": {
+    "logicalName": "msevtmgt_cateringrequiredname",
+    "displayName": "msevtmgt_cateringrequiredname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_changemeetingoptions": {
+    "logicalName": "msevtmgt_changemeetingoptions",
+    "displayName": "Change meeting options",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_changemeetingoptionsname": {
+    "logicalName": "msevtmgt_changemeetingoptionsname",
+    "displayName": "msevtmgt_changemeetingoptionsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_checkincount": {
+    "logicalName": "msevtmgt_checkincount",
+    "displayName": "Check-in count",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_confirmedhotelchoices": {
+    "logicalName": "msevtmgt_confirmedhotelchoices",
+    "displayName": "Confirmed hotel choices?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_confirmedhotelchoicesname": {
+    "logicalName": "msevtmgt_confirmedhotelchoicesname",
+    "displayName": "msevtmgt_confirmedhotelchoicesname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_countdownindays": {
+    "logicalName": "msevtmgt_countdownindays",
+    "displayName": "Countdown in days",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_createleadsforeventregistrations": {
+    "logicalName": "msevtmgt_createleadsforeventregistrations",
+    "displayName": "Create leads for event registrations",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_createleadsforeventregistrationsname": {
+    "logicalName": "msevtmgt_createleadsforeventregistrationsname",
+    "displayName": "msevtmgt_createleadsforeventregistrationsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_createmarketingcollateral": {
+    "logicalName": "msevtmgt_createmarketingcollateral",
+    "displayName": "Create marketing collateral",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_createmarketingcollateralname": {
+    "logicalName": "msevtmgt_createmarketingcollateralname",
+    "displayName": "msevtmgt_createmarketingcollateralname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_creationsource": {
+    "logicalName": "msevtmgt_creationsource",
+    "displayName": "Creation source",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Dynamics"
+      },
+      {
+        "value": 100000002,
+        "label": "Microsoft Teams"
+      }
+    ]
+  },
+  "msevtmgt_creationsourcename": {
+    "logicalName": "msevtmgt_creationsourcename",
+    "displayName": "msevtmgt_creationsourcename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_customeventurl": {
+    "logicalName": "msevtmgt_customeventurl",
+    "displayName": "Custom event URL",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_customeventurlname": {
+    "logicalName": "msevtmgt_customeventurlname",
+    "displayName": "msevtmgt_customeventurlname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_definepackagesandpricing": {
+    "logicalName": "msevtmgt_definepackagesandpricing",
+    "displayName": "Define packages and pricing",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_definepackagesandpricingname": {
+    "logicalName": "msevtmgt_definepackagesandpricingname",
+    "displayName": "msevtmgt_definepackagesandpricingname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_definesessions": {
+    "logicalName": "msevtmgt_definesessions",
+    "displayName": "Define sessions",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_definesessionsname": {
+    "logicalName": "msevtmgt_definesessionsname",
+    "displayName": "msevtmgt_definesessionsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_defineteam": {
+    "logicalName": "msevtmgt_defineteam",
+    "displayName": "Define team",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_defineteamname": {
+    "logicalName": "msevtmgt_defineteamname",
+    "displayName": "msevtmgt_defineteamname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_description": {
+    "logicalName": "msevtmgt_description",
+    "displayName": "Description",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_descriptorsyncstatus": {
+    "logicalName": "msevtmgt_descriptorsyncstatus",
+    "displayName": "Descriptor sync status",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000000,
+        "label": "Synced"
+      },
+      {
+        "value": 100000001,
+        "label": "Going live"
+      },
+      {
+        "value": 100000002,
+        "label": "Going live failed"
+      },
+      {
+        "value": 100000003,
+        "label": "Modifying capacity"
+      },
+      {
+        "value": 100000004,
+        "label": "Modifying capacity failed"
+      },
+      {
+        "value": 100000005,
+        "label": "Not Synced"
+      }
+    ]
+  },
+  "msevtmgt_descriptorsyncstatusname": {
+    "logicalName": "msevtmgt_descriptorsyncstatusname",
+    "displayName": "msevtmgt_descriptorsyncstatusname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_developmarketingplan": {
+    "logicalName": "msevtmgt_developmarketingplan",
+    "displayName": "Develop marketing plan",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_developmarketingplanname": {
+    "logicalName": "msevtmgt_developmarketingplanname",
+    "displayName": "msevtmgt_developmarketingplanname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_earlybirdcutoffdate": {
+    "logicalName": "msevtmgt_earlybirdcutoffdate",
+    "displayName": "Early bird cut-off date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_embedregistrationform": {
+    "logicalName": "msevtmgt_embedregistrationform",
+    "displayName": "Embed registration form",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_embedregistrationformname": {
+    "logicalName": "msevtmgt_embedregistrationformname",
+    "displayName": "msevtmgt_embedregistrationformname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_enablecaptcha": {
+    "logicalName": "msevtmgt_enablecaptcha",
+    "displayName": "Enable CAPTCHA",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_enablecaptchaname": {
+    "logicalName": "msevtmgt_enablecaptchaname",
+    "displayName": "msevtmgt_enablecaptchaname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_enablemultiattendeeregistration": {
+    "logicalName": "msevtmgt_enablemultiattendeeregistration",
+    "displayName": "Enable multi-attendee registration",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_enablemultiattendeeregistrationname": {
+    "logicalName": "msevtmgt_enablemultiattendeeregistrationname",
+    "displayName": "msevtmgt_enablemultiattendeeregistrationname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_entryexitannouncementsenabled": {
+    "logicalName": "msevtmgt_entryexitannouncementsenabled",
+    "displayName": "Announce when callers join or leave",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_entryexitannouncementsenabledname": {
+    "logicalName": "msevtmgt_entryexitannouncementsenabledname",
+    "displayName": "msevtmgt_entryexitannouncementsenabledname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventcancellationurl": {
+    "logicalName": "msevtmgt_eventcancellationurl",
+    "displayName": "Event Cancellation URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventdebriefing": {
+    "logicalName": "msevtmgt_eventdebriefing",
+    "displayName": "Event debriefing",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_eventdebriefingname": {
+    "logicalName": "msevtmgt_eventdebriefingname",
+    "displayName": "msevtmgt_eventdebriefingname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventenddate": {
+    "logicalName": "msevtmgt_eventenddate",
+    "displayName": "Event end date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventformat": {
+    "logicalName": "msevtmgt_eventformat",
+    "displayName": "Event format",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "On site"
+      },
+      {
+        "value": 100000002,
+        "label": "Webinar"
+      },
+      {
+        "value": 100000003,
+        "label": "Hybrid"
+      }
+    ]
+  },
+  "msevtmgt_eventformatname": {
+    "logicalName": "msevtmgt_eventformatname",
+    "displayName": "msevtmgt_eventformatname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventid": {
+    "logicalName": "msevtmgt_eventid",
+    "displayName": "Event",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventimage": {
+    "logicalName": "msevtmgt_eventimage",
+    "displayName": "Event image",
+    "type": "Lookup",
+    "targets": [
+      "msdyncrm_file"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_eventimagename": {
+    "logicalName": "msevtmgt_eventimagename",
+    "displayName": "msevtmgt_eventimagename",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventpowerpageswebsite": {
+    "logicalName": "msevtmgt_eventpowerpageswebsite",
+    "displayName": "Event Power Pages Website",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_powerpageswebsite"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_eventpowerpageswebsitename": {
+    "logicalName": "msevtmgt_eventpowerpageswebsitename",
+    "displayName": "msevtmgt_eventpowerpageswebsitename",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventstartdate": {
+    "logicalName": "msevtmgt_eventstartdate",
+    "displayName": "Event start date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventtimezone": {
+    "logicalName": "msevtmgt_eventtimezone",
+    "displayName": "Event time zone",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventtimezonename": {
+    "logicalName": "msevtmgt_eventtimezonename",
+    "displayName": "Event time zone name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventtype": {
+    "logicalName": "msevtmgt_eventtype",
+    "displayName": "Event type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Executive briefing"
+      },
+      {
+        "value": 100000002,
+        "label": "Conference"
+      },
+      {
+        "value": 100000003,
+        "label": "Demonstration"
+      },
+      {
+        "value": 100000004,
+        "label": "Training"
+      },
+      {
+        "value": 100000005,
+        "label": "Webcast"
+      }
+    ]
+  },
+  "msevtmgt_eventtypename": {
+    "logicalName": "msevtmgt_eventtypename",
+    "displayName": "msevtmgt_eventtypename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventvenuecost": {
+    "logicalName": "msevtmgt_eventvenuecost",
+    "displayName": "Event venue cost",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventvenuecost_base": {
+    "logicalName": "msevtmgt_eventvenuecost_base",
+    "displayName": "Event venue cost (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_eventwebapplication": {
+    "logicalName": "msevtmgt_eventwebapplication",
+    "displayName": "Event portal",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_webapplication"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_eventwebapplicationname": {
+    "logicalName": "msevtmgt_eventwebapplicationname",
+    "displayName": "msevtmgt_eventwebapplicationname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_expectedoutcome": {
+    "logicalName": "msevtmgt_expectedoutcome",
+    "displayName": "Expected outcome",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_followuponleads": {
+    "logicalName": "msevtmgt_followuponleads",
+    "displayName": "Follow up on leads",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_followuponleadsname": {
+    "logicalName": "msevtmgt_followuponleadsname",
+    "displayName": "msevtmgt_followuponleadsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_formpagejavascriptcode": {
+    "logicalName": "msevtmgt_formpagejavascriptcode",
+    "displayName": "Form hosting script",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_gridoperationinprogress": {
+    "logicalName": "msevtmgt_gridoperationinprogress",
+    "displayName": "Registrations grid operation in progress",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_gridoperationinprogressname": {
+    "logicalName": "msevtmgt_gridoperationinprogressname",
+    "displayName": "msevtmgt_gridoperationinprogressname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_guestlogistics": {
+    "logicalName": "msevtmgt_guestlogistics",
+    "displayName": "Guest logistics?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "No"
+      },
+      {
+        "value": 100000002,
+        "label": "Yes"
+      }
+    ]
+  },
+  "msevtmgt_guestlogisticsname": {
+    "logicalName": "msevtmgt_guestlogisticsname",
+    "displayName": "msevtmgt_guestlogisticsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_identifyspeakers": {
+    "logicalName": "msevtmgt_identifyspeakers",
+    "displayName": "Identify speakers",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_identifyspeakersname": {
+    "logicalName": "msevtmgt_identifyspeakersname",
+    "displayName": "msevtmgt_identifyspeakersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_identifysponsors": {
+    "logicalName": "msevtmgt_identifysponsors",
+    "displayName": "Identify sponsors",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not applicable"
+      },
+      {
+        "value": 100000002,
+        "label": "Incomplete"
+      },
+      {
+        "value": 100000003,
+        "label": "Complete"
+      }
+    ]
+  },
+  "msevtmgt_identifysponsorsname": {
+    "logicalName": "msevtmgt_identifysponsorsname",
+    "displayName": "msevtmgt_identifysponsorsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_isoutofsync": {
+    "logicalName": "msevtmgt_isoutofsync",
+    "displayName": "Event is out of sync",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_isoutofsyncname": {
+    "logicalName": "msevtmgt_isoutofsyncname",
+    "displayName": "msevtmgt_isoutofsyncname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_isrecurringevent": {
+    "logicalName": "msevtmgt_isrecurringevent",
+    "displayName": "Is a recurring event",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_isrecurringeventname": {
+    "logicalName": "msevtmgt_isrecurringeventname",
+    "displayName": "msevtmgt_isrecurringeventname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_issessionregistrationrequired": {
+    "logicalName": "msevtmgt_issessionregistrationrequired",
+    "displayName": "Is session registrarion required",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_issessionregistrationrequiredname": {
+    "logicalName": "msevtmgt_issessionregistrationrequiredname",
+    "displayName": "msevtmgt_issessionregistrationrequiredname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_issinglesessionregistration": {
+    "logicalName": "msevtmgt_issinglesessionregistration",
+    "displayName": "Allow single session registration only",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_issinglesessionregistrationname": {
+    "logicalName": "msevtmgt_issinglesessionregistrationname",
+    "displayName": "msevtmgt_issinglesessionregistrationname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_istemplate": {
+    "logicalName": "msevtmgt_istemplate",
+    "displayName": "Is template",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Yes"
+      },
+      {
+        "value": 100000002,
+        "label": "No"
+      }
+    ]
+  },
+  "msevtmgt_istemplatename": {
+    "logicalName": "msevtmgt_istemplatename",
+    "displayName": "msevtmgt_istemplatename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_language": {
+    "logicalName": "msevtmgt_language",
+    "displayName": "Language",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000000,
+        "label": "English"
+      },
+      {
+        "value": 100000001,
+        "label": "French"
+      },
+      {
+        "value": 100000002,
+        "label": "German"
+      },
+      {
+        "value": 100000003,
+        "label": "Spanish"
+      },
+      {
+        "value": 100000004,
+        "label": "Italian"
+      },
+      {
+        "value": 100000005,
+        "label": "Russian"
+      },
+      {
+        "value": 100000006,
+        "label": "Dutch"
+      },
+      {
+        "value": 100000007,
+        "label": "Turkish"
+      },
+      {
+        "value": 100000008,
+        "label": "Portuguese"
+      },
+      {
+        "value": 100000009,
+        "label": "Chinese (Simplified)"
+      },
+      {
+        "value": 100000013,
+        "label": "Chinese (Traditional)"
+      },
+      {
+        "value": 100000010,
+        "label": "Japanese"
+      },
+      {
+        "value": 100000011,
+        "label": "Korean"
+      },
+      {
+        "value": 100000012,
+        "label": "Hebrew"
+      }
+    ]
+  },
+  "msevtmgt_languagename": {
+    "logicalName": "msevtmgt_languagename",
+    "displayName": "msevtmgt_languagename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_lastteamssyncdate": {
+    "logicalName": "msevtmgt_lastteamssyncdate",
+    "displayName": "Last sync with Teams date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_layout": {
+    "logicalName": "msevtmgt_layout",
+    "displayName": "Layout",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_layout"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_layoutname": {
+    "logicalName": "msevtmgt_layoutname",
+    "displayName": "msevtmgt_layoutname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_makepaymentsdue": {
+    "logicalName": "msevtmgt_makepaymentsdue",
+    "displayName": "Make payments due",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_makepaymentsduename": {
+    "logicalName": "msevtmgt_makepaymentsduename",
+    "displayName": "msevtmgt_makepaymentsduename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_manageregistrationcount": {
+    "logicalName": "msevtmgt_manageregistrationcount",
+    "displayName": "Manage registration count?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Yes"
+      },
+      {
+        "value": 100000002,
+        "label": "No"
+      }
+    ]
+  },
+  "msevtmgt_manageregistrationcountname": {
+    "logicalName": "msevtmgt_manageregistrationcountname",
+    "displayName": "msevtmgt_manageregistrationcountname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_marketingformid": {
+    "logicalName": "msevtmgt_marketingformid",
+    "displayName": "Form",
+    "type": "Lookup",
+    "targets": [
+      "msdynmkt_marketingform"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_marketingformidname": {
+    "logicalName": "msevtmgt_marketingformidname",
+    "displayName": "msevtmgt_marketingformidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_maximumeventcapacity": {
+    "logicalName": "msevtmgt_maximumeventcapacity",
+    "displayName": "Maximum event capacity",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_maxnumberofregistrations": {
+    "logicalName": "msevtmgt_maxnumberofregistrations",
+    "displayName": "Max. number of registrations",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_miscellaneouscosts": {
+    "logicalName": "msevtmgt_miscellaneouscosts",
+    "displayName": "Miscellaneous costs",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_miscellaneouscosts_base": {
+    "logicalName": "msevtmgt_miscellaneouscosts_base",
+    "displayName": "Miscellaneous costs (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_name": {
+    "logicalName": "msevtmgt_name",
+    "displayName": "Event name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_notifyauthoritiesofevent": {
+    "logicalName": "msevtmgt_notifyauthoritiesofevent",
+    "displayName": "Notify authorities of event",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_notifyauthoritiesofeventname": {
+    "logicalName": "msevtmgt_notifyauthoritiesofeventname",
+    "displayName": "msevtmgt_notifyauthoritiesofeventname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_numberofinvitations": {
+    "logicalName": "msevtmgt_numberofinvitations",
+    "displayName": "Number of invitations per slot",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_planregistration": {
+    "logicalName": "msevtmgt_planregistration",
+    "displayName": "Plan registration",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_planregistrationname": {
+    "logicalName": "msevtmgt_planregistrationname",
+    "displayName": "msevtmgt_planregistrationname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_portalspecificeventenddate": {
+    "logicalName": "msevtmgt_portalspecificeventenddate",
+    "displayName": "End date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_portalspecificeventstartdate": {
+    "logicalName": "msevtmgt_portalspecificeventstartdate",
+    "displayName": "Start date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_presentationmanagerurl": {
+    "logicalName": "msevtmgt_presentationmanagerurl",
+    "displayName": "Presentation manager URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_previousnumberoffreeslots": {
+    "logicalName": "msevtmgt_previousnumberoffreeslots",
+    "displayName": "Previous number of free slots",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_primarygoal": {
+    "logicalName": "msevtmgt_primarygoal",
+    "displayName": "Primary goal",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Marketing"
+      },
+      {
+        "value": 100000002,
+        "label": "Sales"
+      },
+      {
+        "value": 100000003,
+        "label": "Education"
+      },
+      {
+        "value": 100000004,
+        "label": "Morale"
+      }
+    ]
+  },
+  "msevtmgt_primarygoalname": {
+    "logicalName": "msevtmgt_primarygoalname",
+    "displayName": "msevtmgt_primarygoalname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_primaryvenue": {
+    "logicalName": "msevtmgt_primaryvenue",
+    "displayName": "Primary venue",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_venue"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_primaryvenuename": {
+    "logicalName": "msevtmgt_primaryvenuename",
+    "displayName": "msevtmgt_primaryvenuename",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_producer": {
+    "logicalName": "msevtmgt_producer",
+    "displayName": "Producer",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_eventteammember"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_producername": {
+    "logicalName": "msevtmgt_producername",
+    "displayName": "msevtmgt_producername",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_publiceventurl": {
+    "logicalName": "msevtmgt_publiceventurl",
+    "displayName": "Event URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_publishstatus": {
+    "logicalName": "msevtmgt_publishstatus",
+    "displayName": "Publish status",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000000,
+        "label": "Draft"
+      },
+      {
+        "value": 100000001,
+        "label": "Ready to go live"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Live"
+      },
+      {
+        "value": 100000004,
+        "label": "Cancelled"
+      },
+      {
+        "value": 100000005,
+        "label": "Going live"
+      }
+    ]
+  },
+  "msevtmgt_publishstatusname": {
+    "logicalName": "msevtmgt_publishstatusname",
+    "displayName": "msevtmgt_publishstatusname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_qna": {
+    "logicalName": "msevtmgt_qna",
+    "displayName": "Do you want to enable Q/A for this event",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_qnaname": {
+    "logicalName": "msevtmgt_qnaname",
+    "displayName": "msevtmgt_qnaname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_readableeventid": {
+    "logicalName": "msevtmgt_readableeventid",
+    "displayName": "Readable event ID",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recordingforattendees": {
+    "logicalName": "msevtmgt_recordingforattendees",
+    "displayName": "Recording available to attendees",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recordingforattendeesname": {
+    "logicalName": "msevtmgt_recordingforattendeesname",
+    "displayName": "msevtmgt_recordingforattendeesname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recordingforproducersandspeakers": {
+    "logicalName": "msevtmgt_recordingforproducersandspeakers",
+    "displayName": "Recording available to producers and speakers",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recordingforproducersandspeakersname": {
+    "logicalName": "msevtmgt_recordingforproducersandspeakersname",
+    "displayName": "msevtmgt_recordingforproducersandspeakersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recoveryitems": {
+    "logicalName": "msevtmgt_recoveryitems",
+    "displayName": "Recovery items",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recurrencepattern": {
+    "logicalName": "msevtmgt_recurrencepattern",
+    "displayName": "Recurrence pattern",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_recurrenteventstatus": {
+    "logicalName": "msevtmgt_recurrenteventstatus",
+    "displayName": "Recurrent event status",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_registrationcancelationform": {
+    "logicalName": "msevtmgt_registrationcancelationform",
+    "displayName": "Registration cancelation form",
+    "type": "Lookup",
+    "targets": [
+      "msdynmkt_marketingform"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_registrationcancelationformname": {
+    "logicalName": "msevtmgt_registrationcancelationformname",
+    "displayName": "msevtmgt_registrationcancelationformname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_registrationcount": {
+    "logicalName": "msevtmgt_registrationcount",
+    "displayName": "Registration count",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_registrationcounterlock": {
+    "logicalName": "msevtmgt_registrationcounterlock",
+    "displayName": "Event registration counter lock",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_registrationsgridid": {
+    "logicalName": "msevtmgt_registrationsgridid",
+    "displayName": "Registrations Grid Id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_registrationstarget": {
+    "logicalName": "msevtmgt_registrationstarget",
+    "displayName": "Registrations target",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_requestsponsorship": {
+    "logicalName": "msevtmgt_requestsponsorship",
+    "displayName": "Request sponsorship",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_requestsponsorshipname": {
+    "logicalName": "msevtmgt_requestsponsorshipname",
+    "displayName": "msevtmgt_requestsponsorshipname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_revenuefromsponsorship": {
+    "logicalName": "msevtmgt_revenuefromsponsorship",
+    "displayName": "Revenue from sponsorship",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_revenuefromsponsorship_base": {
+    "logicalName": "msevtmgt_revenuefromsponsorship_base",
+    "displayName": "Revenue from sponsorship (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_room": {
+    "logicalName": "msevtmgt_room",
+    "displayName": "Room",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_room"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_roomname": {
+    "logicalName": "msevtmgt_roomname",
+    "displayName": "msevtmgt_roomname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_scheduleairportpickups": {
+    "logicalName": "msevtmgt_scheduleairportpickups",
+    "displayName": "Schedule airport pickups?",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_scheduleairportpickupsname": {
+    "logicalName": "msevtmgt_scheduleairportpickupsname",
+    "displayName": "msevtmgt_scheduleairportpickupsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_schedulesessions": {
+    "logicalName": "msevtmgt_schedulesessions",
+    "displayName": "Schedule sessions",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_schedulesessionsname": {
+    "logicalName": "msevtmgt_schedulesessionsname",
+    "displayName": "msevtmgt_schedulesessionsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_selectspeakers": {
+    "logicalName": "msevtmgt_selectspeakers",
+    "displayName": "Select speakers",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_selectspeakersname": {
+    "logicalName": "msevtmgt_selectspeakersname",
+    "displayName": "msevtmgt_selectspeakersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_selectvendors": {
+    "logicalName": "msevtmgt_selectvendors",
+    "displayName": "Select vendors",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_selectvendorsname": {
+    "logicalName": "msevtmgt_selectvendorsname",
+    "displayName": "msevtmgt_selectvendorsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_sendeventinvitation": {
+    "logicalName": "msevtmgt_sendeventinvitation",
+    "displayName": "Send event invitation",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_sendeventinvitationname": {
+    "logicalName": "msevtmgt_sendeventinvitationname",
+    "displayName": "msevtmgt_sendeventinvitationname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_sendmarketingmaterial": {
+    "logicalName": "msevtmgt_sendmarketingmaterial",
+    "displayName": "Send marketing material",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_sendmarketingmaterialname": {
+    "logicalName": "msevtmgt_sendmarketingmaterialname",
+    "displayName": "msevtmgt_sendmarketingmaterialname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_sendpreeventreminders": {
+    "logicalName": "msevtmgt_sendpreeventreminders",
+    "displayName": "Send pre-event reminders",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_sendpreeventremindersname": {
+    "logicalName": "msevtmgt_sendpreeventremindersname",
+    "displayName": "msevtmgt_sendpreeventremindersname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_sendthankyouemails": {
+    "logicalName": "msevtmgt_sendthankyouemails",
+    "displayName": "Send thank you emails",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_sendthankyouemailsname": {
+    "logicalName": "msevtmgt_sendthankyouemailsname",
+    "displayName": "msevtmgt_sendthankyouemailsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_setregistrationsenddate": {
+    "logicalName": "msevtmgt_setregistrationsenddate",
+    "displayName": "Set registration close date",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_setregistrationsenddatename": {
+    "logicalName": "msevtmgt_setregistrationsenddatename",
+    "displayName": "msevtmgt_setregistrationsenddatename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_showautomaticregistrationcheckbox": {
+    "logicalName": "msevtmgt_showautomaticregistrationcheckbox",
+    "displayName": "Contacts can choose to be registered automatically",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_showautomaticregistrationcheckboxname": {
+    "logicalName": "msevtmgt_showautomaticregistrationcheckboxname",
+    "displayName": "msevtmgt_showautomaticregistrationcheckboxname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_showwaitlist": {
+    "logicalName": "msevtmgt_showwaitlist",
+    "displayName": "Show waitlist",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_showwaitlistname": {
+    "logicalName": "msevtmgt_showwaitlistname",
+    "displayName": "msevtmgt_showwaitlistname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_sourcesystem": {
+    "logicalName": "msevtmgt_sourcesystem",
+    "displayName": "Marketing module",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Outbound marketing"
+      },
+      {
+        "value": 100000002,
+        "label": "Real-time Journeys"
+      }
+    ]
+  },
+  "msevtmgt_sourcesystemname": {
+    "logicalName": "msevtmgt_sourcesystemname",
+    "displayName": "msevtmgt_sourcesystemname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_stopwebsiteregistrationson": {
+    "logicalName": "msevtmgt_stopwebsiteregistrationson",
+    "displayName": "Close online registration on",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_streamingenabled": {
+    "logicalName": "msevtmgt_streamingenabled",
+    "displayName": "Streamed event",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_streamingenabledname": {
+    "logicalName": "msevtmgt_streamingenabledname",
+    "displayName": "msevtmgt_streamingenabledname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_streamingprovider": {
+    "logicalName": "msevtmgt_streamingprovider",
+    "displayName": "Streaming provider",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000004,
+        "label": "Teams Webinars"
+      },
+      {
+        "value": 100000005,
+        "label": "Teams Virtual Events"
+      },
+      {
+        "value": 100000001,
+        "label": "Teams Live Events"
+      },
+      {
+        "value": 100000002,
+        "label": "Teams Meetings"
+      },
+      {
+        "value": 100000006,
+        "label": "Teams Town Hall"
+      },
+      {
+        "value": 100000003,
+        "label": "Other"
+      }
+    ]
+  },
+  "msevtmgt_streamingprovidername": {
+    "logicalName": "msevtmgt_streamingprovidername",
+    "displayName": "msevtmgt_streamingprovidername",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_streamowner": {
+    "logicalName": "msevtmgt_streamowner",
+    "displayName": "Streamed event owner",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_streamownername": {
+    "logicalName": "msevtmgt_streamownername",
+    "displayName": "msevtmgt_streamownername",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_streamowneryominame": {
+    "logicalName": "msevtmgt_streamowneryominame",
+    "displayName": "msevtmgt_streamowneryominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_targetrevenue": {
+    "logicalName": "msevtmgt_targetrevenue",
+    "displayName": "Target revenue",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_targetrevenue_base": {
+    "logicalName": "msevtmgt_targetrevenue_base",
+    "displayName": "Target revenue (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_teamdebriefing": {
+    "logicalName": "msevtmgt_teamdebriefing",
+    "displayName": "Team debriefing",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "Not started"
+      },
+      {
+        "value": 100000002,
+        "label": "In progress"
+      },
+      {
+        "value": 100000003,
+        "label": "Completed"
+      },
+      {
+        "value": 100000004,
+        "label": "Not applicable"
+      }
+    ]
+  },
+  "msevtmgt_teamdebriefingname": {
+    "logicalName": "msevtmgt_teamdebriefingname",
+    "displayName": "msevtmgt_teamdebriefingname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_teamsevent": {
+    "logicalName": "msevtmgt_teamsevent",
+    "displayName": "(Obsolete) Team event metadata",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_teamsinvitationhtml": {
+    "logicalName": "msevtmgt_teamsinvitationhtml",
+    "displayName": "Invitation HTML",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalcostofeventsactivities": {
+    "logicalName": "msevtmgt_totalcostofeventsactivities",
+    "displayName": "Total cost of events activities",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalcostofeventsactivities_base": {
+    "logicalName": "msevtmgt_totalcostofeventsactivities_base",
+    "displayName": "Total cost of events activities (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalcostofexternalmembers": {
+    "logicalName": "msevtmgt_totalcostofexternalmembers",
+    "displayName": "Total cost of external members",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalcostofexternalmembers_base": {
+    "logicalName": "msevtmgt_totalcostofexternalmembers_base",
+    "displayName": "Total cost of external members (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalregistrationfee": {
+    "logicalName": "msevtmgt_totalregistrationfee",
+    "displayName": "Total registration fee (package cost)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalregistrationfee_base": {
+    "logicalName": "msevtmgt_totalregistrationfee_base",
+    "displayName": "Total registration fee (package cost) (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalrevenuefromtheevent": {
+    "logicalName": "msevtmgt_totalrevenuefromtheevent",
+    "displayName": "Total revenue from the event",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_totalrevenuefromtheevent_base": {
+    "logicalName": "msevtmgt_totalrevenuefromtheevent_base",
+    "displayName": "Total revenue from the event (base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_transactioncurrencyid": {
+    "logicalName": "msevtmgt_transactioncurrencyid",
+    "displayName": "Currency",
+    "type": "Lookup",
+    "targets": [
+      "transactioncurrency"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_transactioncurrencyidname": {
+    "logicalName": "msevtmgt_transactioncurrencyidname",
+    "displayName": "msevtmgt_transactioncurrencyidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_waitliststartingpoint": {
+    "logicalName": "msevtmgt_waitliststartingpoint",
+    "displayName": "Waitlist starting point",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_waitlistthisevent": {
+    "logicalName": "msevtmgt_waitlistthisevent",
+    "displayName": "Waitlist this event",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "No"
+      },
+      {
+        "value": 100000002,
+        "label": "Yes"
+      }
+    ]
+  },
+  "msevtmgt_waitlistthiseventname": {
+    "logicalName": "msevtmgt_waitlistthiseventname",
+    "displayName": "msevtmgt_waitlistthiseventname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarconfigurationid": {
+    "logicalName": "msevtmgt_webinarconfigurationid",
+    "displayName": "Webinar configuration",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_webinarconfiguration"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_webinarconfigurationidname": {
+    "logicalName": "msevtmgt_webinarconfigurationidname",
+    "displayName": "msevtmgt_webinarconfigurationidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarid": {
+    "logicalName": "msevtmgt_webinarid",
+    "displayName": "Webinar ID",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarnotificationseen": {
+    "logicalName": "msevtmgt_webinarnotificationseen",
+    "displayName": "Webinar notification seen",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarnotificationseenname": {
+    "logicalName": "msevtmgt_webinarnotificationseenname",
+    "displayName": "msevtmgt_webinarnotificationseenname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinaroperation": {
+    "logicalName": "msevtmgt_webinaroperation",
+    "displayName": "Webinar operation",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarstatus": {
+    "logicalName": "msevtmgt_webinarstatus",
+    "displayName": "Webinar status",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarstatusreason": {
+    "logicalName": "msevtmgt_webinarstatusreason",
+    "displayName": "Webinar status reason",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinartype": {
+    "logicalName": "msevtmgt_webinartype",
+    "displayName": "Webinar type",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_webinartype"
+    ],
+    "optionset": []
+  },
+  "msevtmgt_webinartypename": {
+    "logicalName": "msevtmgt_webinartypename",
+    "displayName": "msevtmgt_webinartypename",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_webinarurl": {
+    "logicalName": "msevtmgt_webinarurl",
+    "displayName": "Webinar URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_websitemessage": {
+    "logicalName": "msevtmgt_websitemessage",
+    "displayName": "Registration closed message",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_websitepreference": {
+    "logicalName": "msevtmgt_websitepreference",
+    "displayName": "Website preference",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 192350001,
+        "label": "On a standalone registration page"
+      },
+      {
+        "value": 192350002,
+        "label": "On your own website"
+      },
+      {
+        "value": 192350003,
+        "label": "This event doesn\u2019t have a website"
+      },
+      {
+        "value": 192350004,
+        "label": "Power Pages website"
+      }
+    ]
+  },
+  "msevtmgt_websitepreferencename": {
+    "logicalName": "msevtmgt_websitepreferencename",
+    "displayName": "msevtmgt_websitepreferencename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "overriddencreatedon": {
+    "logicalName": "overriddencreatedon",
+    "displayName": "Record created on",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "ownerid": {
+    "logicalName": "ownerid",
+    "displayName": "Owner",
+    "type": "Owner",
+    "targets": [
+      "systemuser",
+      "team"
+    ],
+    "optionset": []
+  },
+  "owneridname": {
+    "logicalName": "owneridname",
+    "displayName": "owneridname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridtype": {
+    "logicalName": "owneridtype",
+    "displayName": "owneridtype",
+    "type": "EntityName",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridyominame": {
+    "logicalName": "owneridyominame",
+    "displayName": "owneridyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owningbusinessunit": {
+    "logicalName": "owningbusinessunit",
+    "displayName": "Owning business unit",
+    "type": "Lookup",
+    "targets": [
+      "businessunit"
+    ],
+    "optionset": []
+  },
+  "owningbusinessunitname": {
+    "logicalName": "owningbusinessunitname",
+    "displayName": "owningbusinessunitname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owningteam": {
+    "logicalName": "owningteam",
+    "displayName": "Owning team",
+    "type": "Lookup",
+    "targets": [
+      "team"
+    ],
+    "optionset": []
+  },
+  "owninguser": {
+    "logicalName": "owninguser",
+    "displayName": "Owning user",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "processid": {
+    "logicalName": "processid",
+    "displayName": "Process ID",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "stageid": {
+    "logicalName": "stageid",
+    "displayName": "Stage ID",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "statecode": {
+    "logicalName": "statecode",
+    "displayName": "Status",
+    "type": "State",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Active"
+      },
+      {
+        "value": 1,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statecodename": {
+    "logicalName": "statecodename",
+    "displayName": "statecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "statuscode": {
+    "logicalName": "statuscode",
+    "displayName": "Status reason",
+    "type": "Status",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Active"
+      },
+      {
+        "value": 2,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statuscodename": {
+    "logicalName": "statuscodename",
+    "displayName": "statuscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "timezoneruleversionnumber": {
+    "logicalName": "timezoneruleversionnumber",
+    "displayName": "Time zone rule version number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "transactioncurrencyid": {
+    "logicalName": "transactioncurrencyid",
+    "displayName": "Currency",
+    "type": "Lookup",
+    "targets": [
+      "transactioncurrency"
+    ],
+    "optionset": []
+  },
+  "transactioncurrencyidname": {
+    "logicalName": "transactioncurrencyidname",
+    "displayName": "transactioncurrencyidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "traversedpath": {
+    "logicalName": "traversedpath",
+    "displayName": "Traversed path",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "utcconversiontimezonecode": {
+    "logicalName": "utcconversiontimezonecode",
+    "displayName": "UTC conversion time zone code",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "versionnumber": {
+    "logicalName": "versionnumber",
+    "displayName": "Version Number",
+    "type": "BigInt",
+    "targets": [],
+    "optionset": []
+  }
+}

@@ -1,0 +1,2318 @@
+{
+  "accountcategorycode": {
+    "logicalName": "accountcategorycode",
+    "displayName": "Category",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Preferred Customer"
+      },
+      {
+        "value": 2,
+        "label": "Standard"
+      }
+    ]
+  },
+  "accountcategorycodename": {
+    "logicalName": "accountcategorycodename",
+    "displayName": "accountcategorycodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "accountclassificationcode": {
+    "logicalName": "accountclassificationcode",
+    "displayName": "Classification",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "accountclassificationcodename": {
+    "logicalName": "accountclassificationcodename",
+    "displayName": "accountclassificationcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "accountid": {
+    "logicalName": "accountid",
+    "displayName": "Account",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "accountnumber": {
+    "logicalName": "accountnumber",
+    "displayName": "Account Number",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "accountratingcode": {
+    "logicalName": "accountratingcode",
+    "displayName": "Account Rating",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "accountratingcodename": {
+    "logicalName": "accountratingcodename",
+    "displayName": "accountratingcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_addressid": {
+    "logicalName": "address1_addressid",
+    "displayName": "Address 1: ID",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_addresstypecode": {
+    "logicalName": "address1_addresstypecode",
+    "displayName": "Address 1: Address Type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Bill To"
+      },
+      {
+        "value": 2,
+        "label": "Ship To"
+      },
+      {
+        "value": 3,
+        "label": "Primary"
+      },
+      {
+        "value": 4,
+        "label": "Other"
+      }
+    ]
+  },
+  "address1_addresstypecodename": {
+    "logicalName": "address1_addresstypecodename",
+    "displayName": "address1_addresstypecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_city": {
+    "logicalName": "address1_city",
+    "displayName": "Address 1: City",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_composite": {
+    "logicalName": "address1_composite",
+    "displayName": "Address 1",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_country": {
+    "logicalName": "address1_country",
+    "displayName": "Address 1: Country/Region",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_county": {
+    "logicalName": "address1_county",
+    "displayName": "Address 1: County",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_fax": {
+    "logicalName": "address1_fax",
+    "displayName": "Address 1: Fax",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_freighttermscode": {
+    "logicalName": "address1_freighttermscode",
+    "displayName": "Address 1: Freight Terms",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "FOB"
+      },
+      {
+        "value": 2,
+        "label": "No Charge"
+      }
+    ]
+  },
+  "address1_freighttermscodename": {
+    "logicalName": "address1_freighttermscodename",
+    "displayName": "address1_freighttermscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_latitude": {
+    "logicalName": "address1_latitude",
+    "displayName": "Address 1: Latitude",
+    "type": "Double",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_line1": {
+    "logicalName": "address1_line1",
+    "displayName": "Address 1: Street 1",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_line2": {
+    "logicalName": "address1_line2",
+    "displayName": "Address 1: Street 2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_line3": {
+    "logicalName": "address1_line3",
+    "displayName": "Address 1: Street 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_longitude": {
+    "logicalName": "address1_longitude",
+    "displayName": "Address 1: Longitude",
+    "type": "Double",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_name": {
+    "logicalName": "address1_name",
+    "displayName": "Address 1: Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_postalcode": {
+    "logicalName": "address1_postalcode",
+    "displayName": "Address 1: ZIP/Postal Code",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_postofficebox": {
+    "logicalName": "address1_postofficebox",
+    "displayName": "Address 1: Post Office Box",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_primarycontactname": {
+    "logicalName": "address1_primarycontactname",
+    "displayName": "Address 1: Primary Contact Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_shippingmethodcode": {
+    "logicalName": "address1_shippingmethodcode",
+    "displayName": "Address 1: Shipping Method",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Airborne"
+      },
+      {
+        "value": 2,
+        "label": "DHL"
+      },
+      {
+        "value": 3,
+        "label": "FedEx"
+      },
+      {
+        "value": 4,
+        "label": "UPS"
+      },
+      {
+        "value": 5,
+        "label": "Postal Mail"
+      },
+      {
+        "value": 6,
+        "label": "Full Load"
+      },
+      {
+        "value": 7,
+        "label": "Will Call"
+      }
+    ]
+  },
+  "address1_shippingmethodcodename": {
+    "logicalName": "address1_shippingmethodcodename",
+    "displayName": "address1_shippingmethodcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_stateorprovince": {
+    "logicalName": "address1_stateorprovince",
+    "displayName": "Address 1: State/Province",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_telephone1": {
+    "logicalName": "address1_telephone1",
+    "displayName": "Address Phone",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_telephone2": {
+    "logicalName": "address1_telephone2",
+    "displayName": "Address 1: Telephone 2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_telephone3": {
+    "logicalName": "address1_telephone3",
+    "displayName": "Address 1: Telephone 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_upszone": {
+    "logicalName": "address1_upszone",
+    "displayName": "Address 1: UPS Zone",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address1_utcoffset": {
+    "logicalName": "address1_utcoffset",
+    "displayName": "Address 1: UTC Offset",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_addressid": {
+    "logicalName": "address2_addressid",
+    "displayName": "Address 2: ID",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_addresstypecode": {
+    "logicalName": "address2_addresstypecode",
+    "displayName": "Address 2: Address Type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "address2_addresstypecodename": {
+    "logicalName": "address2_addresstypecodename",
+    "displayName": "address2_addresstypecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_city": {
+    "logicalName": "address2_city",
+    "displayName": "Address 2: City",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_composite": {
+    "logicalName": "address2_composite",
+    "displayName": "Address 2",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_country": {
+    "logicalName": "address2_country",
+    "displayName": "Address 2: Country/Region",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_county": {
+    "logicalName": "address2_county",
+    "displayName": "Address 2: County",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_fax": {
+    "logicalName": "address2_fax",
+    "displayName": "Address 2: Fax",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_freighttermscode": {
+    "logicalName": "address2_freighttermscode",
+    "displayName": "Address 2: Freight Terms",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "address2_freighttermscodename": {
+    "logicalName": "address2_freighttermscodename",
+    "displayName": "address2_freighttermscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_latitude": {
+    "logicalName": "address2_latitude",
+    "displayName": "Address 2: Latitude",
+    "type": "Double",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_line1": {
+    "logicalName": "address2_line1",
+    "displayName": "Address 2: Street 1",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_line2": {
+    "logicalName": "address2_line2",
+    "displayName": "Address 2: Street 2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_line3": {
+    "logicalName": "address2_line3",
+    "displayName": "Address 2: Street 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_longitude": {
+    "logicalName": "address2_longitude",
+    "displayName": "Address 2: Longitude",
+    "type": "Double",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_name": {
+    "logicalName": "address2_name",
+    "displayName": "Address 2: Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_postalcode": {
+    "logicalName": "address2_postalcode",
+    "displayName": "Address 2: ZIP/Postal Code",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_postofficebox": {
+    "logicalName": "address2_postofficebox",
+    "displayName": "Address 2: Post Office Box",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_primarycontactname": {
+    "logicalName": "address2_primarycontactname",
+    "displayName": "Address 2: Primary Contact Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_shippingmethodcode": {
+    "logicalName": "address2_shippingmethodcode",
+    "displayName": "Address 2: Shipping Method",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "address2_shippingmethodcodename": {
+    "logicalName": "address2_shippingmethodcodename",
+    "displayName": "address2_shippingmethodcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_stateorprovince": {
+    "logicalName": "address2_stateorprovince",
+    "displayName": "Address 2: State/Province",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_telephone1": {
+    "logicalName": "address2_telephone1",
+    "displayName": "Address 2: Telephone 1",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_telephone2": {
+    "logicalName": "address2_telephone2",
+    "displayName": "Address 2: Telephone 2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_telephone3": {
+    "logicalName": "address2_telephone3",
+    "displayName": "Address 2: Telephone 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_upszone": {
+    "logicalName": "address2_upszone",
+    "displayName": "Address 2: UPS Zone",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "address2_utcoffset": {
+    "logicalName": "address2_utcoffset",
+    "displayName": "Address 2: UTC Offset",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "adx_createdbyipaddress": {
+    "logicalName": "adx_createdbyipaddress",
+    "displayName": "Created By (IP Address)",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "adx_createdbyusername": {
+    "logicalName": "adx_createdbyusername",
+    "displayName": "Created By (User Name)",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "adx_modifiedbyipaddress": {
+    "logicalName": "adx_modifiedbyipaddress",
+    "displayName": "Modified By (IP Address)",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "adx_modifiedbyusername": {
+    "logicalName": "adx_modifiedbyusername",
+    "displayName": "Modified By (User Name)",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "aging30": {
+    "logicalName": "aging30",
+    "displayName": "Aging 30",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "aging30_base": {
+    "logicalName": "aging30_base",
+    "displayName": "Aging 30 (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "aging60": {
+    "logicalName": "aging60",
+    "displayName": "Aging 60",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "aging60_base": {
+    "logicalName": "aging60_base",
+    "displayName": "Aging 60 (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "aging90": {
+    "logicalName": "aging90",
+    "displayName": "Aging 90",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "aging90_base": {
+    "logicalName": "aging90_base",
+    "displayName": "Aging 90 (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "businesstypecode": {
+    "logicalName": "businesstypecode",
+    "displayName": "Business Type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "businesstypecodename": {
+    "logicalName": "businesstypecodename",
+    "displayName": "businesstypecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "createdby": {
+    "logicalName": "createdby",
+    "displayName": "Created By",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdbyexternalparty": {
+    "logicalName": "createdbyexternalparty",
+    "displayName": "Created By (External Party)",
+    "type": "Lookup",
+    "targets": [
+      "externalparty"
+    ],
+    "optionset": []
+  },
+  "createdbyexternalpartyname": {
+    "logicalName": "createdbyexternalpartyname",
+    "displayName": "createdbyexternalpartyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdbyexternalpartyyominame": {
+    "logicalName": "createdbyexternalpartyyominame",
+    "displayName": "createdbyexternalpartyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdbyname": {
+    "logicalName": "createdbyname",
+    "displayName": "createdbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdbyyominame": {
+    "logicalName": "createdbyyominame",
+    "displayName": "createdbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdon": {
+    "logicalName": "createdon",
+    "displayName": "Created On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfby": {
+    "logicalName": "createdonbehalfby",
+    "displayName": "Created By (Delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdonbehalfbyname": {
+    "logicalName": "createdonbehalfbyname",
+    "displayName": "createdonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfbyyominame": {
+    "logicalName": "createdonbehalfbyyominame",
+    "displayName": "createdonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "creditlimit": {
+    "logicalName": "creditlimit",
+    "displayName": "Credit Limit",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "creditlimit_base": {
+    "logicalName": "creditlimit_base",
+    "displayName": "Credit Limit (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "creditonhold": {
+    "logicalName": "creditonhold",
+    "displayName": "Credit Hold",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "creditonholdname": {
+    "logicalName": "creditonholdname",
+    "displayName": "creditonholdname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "customersizecode": {
+    "logicalName": "customersizecode",
+    "displayName": "Customer Size",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "customersizecodename": {
+    "logicalName": "customersizecodename",
+    "displayName": "customersizecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "customertypecode": {
+    "logicalName": "customertypecode",
+    "displayName": "Relationship Type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Competitor"
+      },
+      {
+        "value": 2,
+        "label": "Consultant"
+      },
+      {
+        "value": 3,
+        "label": "Customer"
+      },
+      {
+        "value": 4,
+        "label": "Investor"
+      },
+      {
+        "value": 5,
+        "label": "Partner"
+      },
+      {
+        "value": 6,
+        "label": "Influencer"
+      },
+      {
+        "value": 7,
+        "label": "Press"
+      },
+      {
+        "value": 8,
+        "label": "Prospect"
+      },
+      {
+        "value": 9,
+        "label": "Reseller"
+      },
+      {
+        "value": 10,
+        "label": "Supplier"
+      },
+      {
+        "value": 11,
+        "label": "Vendor"
+      },
+      {
+        "value": 12,
+        "label": "Other"
+      }
+    ]
+  },
+  "customertypecodename": {
+    "logicalName": "customertypecodename",
+    "displayName": "customertypecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "defaultpricelevelid": {
+    "logicalName": "defaultpricelevelid",
+    "displayName": "Price List",
+    "type": "Lookup",
+    "targets": [
+      "pricelevel"
+    ],
+    "optionset": []
+  },
+  "defaultpricelevelidname": {
+    "logicalName": "defaultpricelevelidname",
+    "displayName": "defaultpricelevelidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "description": {
+    "logicalName": "description",
+    "displayName": "Description",
+    "type": "Memo",
+    "targets": [],
+    "optionset": []
+  },
+  "donotbulkemail": {
+    "logicalName": "donotbulkemail",
+    "displayName": "Do not allow Bulk Emails",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotbulkemailname": {
+    "logicalName": "donotbulkemailname",
+    "displayName": "donotbulkemailname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotbulkpostalmail": {
+    "logicalName": "donotbulkpostalmail",
+    "displayName": "Do not allow Bulk Mails",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotbulkpostalmailname": {
+    "logicalName": "donotbulkpostalmailname",
+    "displayName": "donotbulkpostalmailname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotemail": {
+    "logicalName": "donotemail",
+    "displayName": "Do not allow Emails",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotemailname": {
+    "logicalName": "donotemailname",
+    "displayName": "donotemailname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotfax": {
+    "logicalName": "donotfax",
+    "displayName": "Do not allow Faxes",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotfaxname": {
+    "logicalName": "donotfaxname",
+    "displayName": "donotfaxname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotphone": {
+    "logicalName": "donotphone",
+    "displayName": "Do not allow Phone Calls",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotphonename": {
+    "logicalName": "donotphonename",
+    "displayName": "donotphonename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotpostalmail": {
+    "logicalName": "donotpostalmail",
+    "displayName": "Do not allow Mails",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "donotpostalmailname": {
+    "logicalName": "donotpostalmailname",
+    "displayName": "donotpostalmailname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotsendmarketingmaterialname": {
+    "logicalName": "donotsendmarketingmaterialname",
+    "displayName": "donotsendmarketingmaterialname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "donotsendmm": {
+    "logicalName": "donotsendmm",
+    "displayName": "Send Marketing Materials",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "emailaddress1": {
+    "logicalName": "emailaddress1",
+    "displayName": "Email",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "emailaddress2": {
+    "logicalName": "emailaddress2",
+    "displayName": "Email Address 2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "emailaddress3": {
+    "logicalName": "emailaddress3",
+    "displayName": "Email Address 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage": {
+    "logicalName": "entityimage",
+    "displayName": "Default Image",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage_timestamp": {
+    "logicalName": "entityimage_timestamp",
+    "displayName": "entityimage_timestamp",
+    "type": "BigInt",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimage_url": {
+    "logicalName": "entityimage_url",
+    "displayName": "entityimage_url",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "entityimageid": {
+    "logicalName": "entityimageid",
+    "displayName": "Entity Image Id",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "exchangerate": {
+    "logicalName": "exchangerate",
+    "displayName": "Exchange Rate",
+    "type": "Decimal",
+    "targets": [],
+    "optionset": []
+  },
+  "fax": {
+    "logicalName": "fax",
+    "displayName": "Fax",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "followemail": {
+    "logicalName": "followemail",
+    "displayName": "Follow Email Activity",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "followemailname": {
+    "logicalName": "followemailname",
+    "displayName": "followemailname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "ftpsiteurl": {
+    "logicalName": "ftpsiteurl",
+    "displayName": "FTP Site",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "importsequencenumber": {
+    "logicalName": "importsequencenumber",
+    "displayName": "Import Sequence Number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "industrycode": {
+    "logicalName": "industrycode",
+    "displayName": "Industry",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Accounting"
+      },
+      {
+        "value": 2,
+        "label": "Agriculture and Non-petrol Natural Resource Extraction"
+      },
+      {
+        "value": 3,
+        "label": "Broadcasting Printing and Publishing"
+      },
+      {
+        "value": 4,
+        "label": "Brokers"
+      },
+      {
+        "value": 5,
+        "label": "Building Supply Retail"
+      },
+      {
+        "value": 6,
+        "label": "Business Services"
+      },
+      {
+        "value": 7,
+        "label": "Consulting"
+      },
+      {
+        "value": 8,
+        "label": "Consumer Services"
+      },
+      {
+        "value": 9,
+        "label": "Design, Direction and Creative Management"
+      },
+      {
+        "value": 10,
+        "label": "Distributors, Dispatchers and Processors"
+      },
+      {
+        "value": 11,
+        "label": "Doctor's Offices and Clinics"
+      },
+      {
+        "value": 12,
+        "label": "Durable Manufacturing"
+      },
+      {
+        "value": 13,
+        "label": "Eating and Drinking Places"
+      },
+      {
+        "value": 14,
+        "label": "Entertainment Retail"
+      },
+      {
+        "value": 15,
+        "label": "Equipment Rental and Leasing"
+      },
+      {
+        "value": 16,
+        "label": "Financial"
+      },
+      {
+        "value": 17,
+        "label": "Food and Tobacco Processing"
+      },
+      {
+        "value": 18,
+        "label": "Inbound Capital Intensive Processing"
+      },
+      {
+        "value": 19,
+        "label": "Inbound Repair and Services"
+      },
+      {
+        "value": 20,
+        "label": "Insurance"
+      },
+      {
+        "value": 21,
+        "label": "Legal Services"
+      },
+      {
+        "value": 22,
+        "label": "Non-Durable Merchandise Retail"
+      },
+      {
+        "value": 23,
+        "label": "Outbound Consumer Service"
+      },
+      {
+        "value": 24,
+        "label": "Petrochemical Extraction and Distribution"
+      },
+      {
+        "value": 25,
+        "label": "Service Retail"
+      },
+      {
+        "value": 26,
+        "label": "SIG Affiliations"
+      },
+      {
+        "value": 27,
+        "label": "Social Services"
+      },
+      {
+        "value": 28,
+        "label": "Special Outbound Trade Contractors"
+      },
+      {
+        "value": 29,
+        "label": "Specialty Realty"
+      },
+      {
+        "value": 30,
+        "label": "Transportation"
+      },
+      {
+        "value": 31,
+        "label": "Utility Creation and Distribution"
+      },
+      {
+        "value": 32,
+        "label": "Vehicle Retail"
+      },
+      {
+        "value": 33,
+        "label": "Wholesale"
+      }
+    ]
+  },
+  "industrycodename": {
+    "logicalName": "industrycodename",
+    "displayName": "industrycodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "isprivate": {
+    "logicalName": "isprivate",
+    "displayName": "isprivate",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "isprivatename": {
+    "logicalName": "isprivatename",
+    "displayName": "isprivatename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "lastonholdtime": {
+    "logicalName": "lastonholdtime",
+    "displayName": "Last On Hold Time",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "lastusedincampaign": {
+    "logicalName": "lastusedincampaign",
+    "displayName": "Last Date Included in Campaign",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "marketcap": {
+    "logicalName": "marketcap",
+    "displayName": "Market Capitalization",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "marketcap_base": {
+    "logicalName": "marketcap_base",
+    "displayName": "Market Capitalization (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "marketingonly": {
+    "logicalName": "marketingonly",
+    "displayName": "Marketing Only",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "marketingonlyname": {
+    "logicalName": "marketingonlyname",
+    "displayName": "marketingonlyname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "masteraccountidname": {
+    "logicalName": "masteraccountidname",
+    "displayName": "masteraccountidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "masteraccountidyominame": {
+    "logicalName": "masteraccountidyominame",
+    "displayName": "masteraccountidyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "masterid": {
+    "logicalName": "masterid",
+    "displayName": "Master ID",
+    "type": "Lookup",
+    "targets": [
+      "account"
+    ],
+    "optionset": []
+  },
+  "merged": {
+    "logicalName": "merged",
+    "displayName": "Merged",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "mergedname": {
+    "logicalName": "mergedname",
+    "displayName": "mergedname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedby": {
+    "logicalName": "modifiedby",
+    "displayName": "Modified By",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedbyexternalparty": {
+    "logicalName": "modifiedbyexternalparty",
+    "displayName": "Modified By (External Party)",
+    "type": "Lookup",
+    "targets": [
+      "externalparty"
+    ],
+    "optionset": []
+  },
+  "modifiedbyexternalpartyname": {
+    "logicalName": "modifiedbyexternalpartyname",
+    "displayName": "modifiedbyexternalpartyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedbyexternalpartyyominame": {
+    "logicalName": "modifiedbyexternalpartyyominame",
+    "displayName": "modifiedbyexternalpartyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedbyname": {
+    "logicalName": "modifiedbyname",
+    "displayName": "modifiedbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedbyyominame": {
+    "logicalName": "modifiedbyyominame",
+    "displayName": "modifiedbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedon": {
+    "logicalName": "modifiedon",
+    "displayName": "Modified On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfby": {
+    "logicalName": "modifiedonbehalfby",
+    "displayName": "Modified By (Delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedonbehalfbyname": {
+    "logicalName": "modifiedonbehalfbyname",
+    "displayName": "modifiedonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfbyyominame": {
+    "logicalName": "modifiedonbehalfbyyominame",
+    "displayName": "modifiedonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msa_managingpartnerid": {
+    "logicalName": "msa_managingpartnerid",
+    "displayName": "Managing Partner",
+    "type": "Lookup",
+    "targets": [
+      "account"
+    ],
+    "optionset": []
+  },
+  "msa_managingpartneridname": {
+    "logicalName": "msa_managingpartneridname",
+    "displayName": "msa_managingpartneridname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msa_managingpartneridyominame": {
+    "logicalName": "msa_managingpartneridyominame",
+    "displayName": "msa_managingpartneridyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_accountkpiid": {
+    "logicalName": "msdyn_accountkpiid",
+    "displayName": "KPI",
+    "type": "Lookup",
+    "targets": [
+      "msdyn_accountkpiitem"
+    ],
+    "optionset": []
+  },
+  "msdyn_accountkpiidname": {
+    "logicalName": "msdyn_accountkpiidname",
+    "displayName": "msdyn_accountkpiidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_gdproptout": {
+    "logicalName": "msdyn_gdproptout",
+    "displayName": "GDPR Optout",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_gdproptoutname": {
+    "logicalName": "msdyn_gdproptoutname",
+    "displayName": "msdyn_gdproptoutname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_primarytimezone": {
+    "logicalName": "msdyn_primarytimezone",
+    "displayName": "Primary Time Zone",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_salesaccelerationinsightid": {
+    "logicalName": "msdyn_salesaccelerationinsightid",
+    "displayName": "Sales Acceleration Insights ID",
+    "type": "Lookup",
+    "targets": [
+      "msdyn_salesaccelerationinsight"
+    ],
+    "optionset": []
+  },
+  "msdyn_salesaccelerationinsightidname": {
+    "logicalName": "msdyn_salesaccelerationinsightidname",
+    "displayName": "msdyn_salesaccelerationinsightidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_segmentid": {
+    "logicalName": "msdyn_segmentid",
+    "displayName": "Segment Id",
+    "type": "Lookup",
+    "targets": [
+      "msdyn_segment"
+    ],
+    "optionset": []
+  },
+  "msdyn_segmentidname": {
+    "logicalName": "msdyn_segmentidname",
+    "displayName": "msdyn_segmentidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_source_crm": {
+    "logicalName": "msdyn_source_crm",
+    "displayName": "Source CRM",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Salesforce"
+      },
+      {
+        "value": 2,
+        "label": "ServiceNow"
+      },
+      {
+        "value": 3,
+        "label": "Zendesk"
+      }
+    ]
+  },
+  "msdyn_source_crm_id": {
+    "logicalName": "msdyn_source_crm_id",
+    "displayName": "Source CRM Id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_source_crm_url": {
+    "logicalName": "msdyn_source_crm_url",
+    "displayName": "Source CRM URL",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyn_source_crmname": {
+    "logicalName": "msdyn_source_crmname",
+    "displayName": "msdyn_source_crmname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdyncrm_insights_placeholder": {
+    "logicalName": "msdyncrm_insights_placeholder",
+    "displayName": "Insights",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_hotelgroup": {
+    "logicalName": "msevtmgt_hotelgroup",
+    "displayName": "Hotel group",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "No"
+      },
+      {
+        "value": 100000002,
+        "label": "Yes"
+      }
+    ]
+  },
+  "msevtmgt_hotelgroupname": {
+    "logicalName": "msevtmgt_hotelgroupname",
+    "displayName": "msevtmgt_hotelgroupname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msevtmgt_rentalcarprovider": {
+    "logicalName": "msevtmgt_rentalcarprovider",
+    "displayName": "Rental car provider",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 100000001,
+        "label": "No"
+      },
+      {
+        "value": 100000002,
+        "label": "Yes"
+      }
+    ]
+  },
+  "msevtmgt_rentalcarprovidername": {
+    "logicalName": "msevtmgt_rentalcarprovidername",
+    "displayName": "msevtmgt_rentalcarprovidername",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msfsi_profiletier": {
+    "logicalName": "msfsi_profiletier",
+    "displayName": "Profile tier",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 104800000,
+        "label": "High"
+      },
+      {
+        "value": 104800001,
+        "label": "Medium"
+      },
+      {
+        "value": 104800002,
+        "label": "Low"
+      }
+    ]
+  },
+  "msfsi_profiletiername": {
+    "logicalName": "msfsi_profiletiername",
+    "displayName": "msfsi_profiletiername",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "name": {
+    "logicalName": "name",
+    "displayName": "Account Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "numberofemployees": {
+    "logicalName": "numberofemployees",
+    "displayName": "Number of Employees",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "onholdtime": {
+    "logicalName": "onholdtime",
+    "displayName": "On Hold Time (Minutes)",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "opendeals": {
+    "logicalName": "opendeals",
+    "displayName": "Open Deals",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "opendeals_date": {
+    "logicalName": "opendeals_date",
+    "displayName": "Open Deals (Last Updated On)",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "opendeals_state": {
+    "logicalName": "opendeals_state",
+    "displayName": "Open Deals (State)",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "openrevenue": {
+    "logicalName": "openrevenue",
+    "displayName": "Open Revenue",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "openrevenue_base": {
+    "logicalName": "openrevenue_base",
+    "displayName": "Open Revenue (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "openrevenue_date": {
+    "logicalName": "openrevenue_date",
+    "displayName": "Open Revenue (Last Updated On)",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "openrevenue_state": {
+    "logicalName": "openrevenue_state",
+    "displayName": "Open Revenue (State)",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "originatingleadid": {
+    "logicalName": "originatingleadid",
+    "displayName": "Originating Lead",
+    "type": "Lookup",
+    "targets": [
+      "lead"
+    ],
+    "optionset": []
+  },
+  "originatingleadidname": {
+    "logicalName": "originatingleadidname",
+    "displayName": "originatingleadidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "originatingleadidyominame": {
+    "logicalName": "originatingleadidyominame",
+    "displayName": "originatingleadidyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "overriddencreatedon": {
+    "logicalName": "overriddencreatedon",
+    "displayName": "Record Created On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "ownerid": {
+    "logicalName": "ownerid",
+    "displayName": "Owner",
+    "type": "Owner",
+    "targets": [
+      "systemuser",
+      "team"
+    ],
+    "optionset": []
+  },
+  "owneridname": {
+    "logicalName": "owneridname",
+    "displayName": "owneridname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridtype": {
+    "logicalName": "owneridtype",
+    "displayName": "owneridtype",
+    "type": "EntityName",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridyominame": {
+    "logicalName": "owneridyominame",
+    "displayName": "owneridyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "ownershipcode": {
+    "logicalName": "ownershipcode",
+    "displayName": "Ownership",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Public"
+      },
+      {
+        "value": 2,
+        "label": "Private"
+      },
+      {
+        "value": 3,
+        "label": "Subsidiary"
+      },
+      {
+        "value": 4,
+        "label": "Other"
+      }
+    ]
+  },
+  "ownershipcodename": {
+    "logicalName": "ownershipcodename",
+    "displayName": "ownershipcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "owningbusinessunit": {
+    "logicalName": "owningbusinessunit",
+    "displayName": "Owning Business Unit",
+    "type": "Lookup",
+    "targets": [
+      "businessunit"
+    ],
+    "optionset": []
+  },
+  "owningbusinessunitname": {
+    "logicalName": "owningbusinessunitname",
+    "displayName": "owningbusinessunitname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owningteam": {
+    "logicalName": "owningteam",
+    "displayName": "Owning Team",
+    "type": "Lookup",
+    "targets": [
+      "team"
+    ],
+    "optionset": []
+  },
+  "owninguser": {
+    "logicalName": "owninguser",
+    "displayName": "Owning User",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "parentaccountid": {
+    "logicalName": "parentaccountid",
+    "displayName": "Parent Account",
+    "type": "Lookup",
+    "targets": [
+      "account"
+    ],
+    "optionset": []
+  },
+  "parentaccountidname": {
+    "logicalName": "parentaccountidname",
+    "displayName": "parentaccountidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "parentaccountidyominame": {
+    "logicalName": "parentaccountidyominame",
+    "displayName": "parentaccountidyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "participatesinworkflow": {
+    "logicalName": "participatesinworkflow",
+    "displayName": "Participates in Workflow",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "participatesinworkflowname": {
+    "logicalName": "participatesinworkflowname",
+    "displayName": "participatesinworkflowname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "paymenttermscode": {
+    "logicalName": "paymenttermscode",
+    "displayName": "Payment Terms",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Net 30"
+      },
+      {
+        "value": 2,
+        "label": "2% 10, Net 30"
+      },
+      {
+        "value": 3,
+        "label": "Net 45"
+      },
+      {
+        "value": 4,
+        "label": "Net 60"
+      }
+    ]
+  },
+  "paymenttermscodename": {
+    "logicalName": "paymenttermscodename",
+    "displayName": "paymenttermscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredappointmentdaycode": {
+    "logicalName": "preferredappointmentdaycode",
+    "displayName": "Preferred Day",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Sunday"
+      },
+      {
+        "value": 1,
+        "label": "Monday"
+      },
+      {
+        "value": 2,
+        "label": "Tuesday"
+      },
+      {
+        "value": 3,
+        "label": "Wednesday"
+      },
+      {
+        "value": 4,
+        "label": "Thursday"
+      },
+      {
+        "value": 5,
+        "label": "Friday"
+      },
+      {
+        "value": 6,
+        "label": "Saturday"
+      }
+    ]
+  },
+  "preferredappointmentdaycodename": {
+    "logicalName": "preferredappointmentdaycodename",
+    "displayName": "preferredappointmentdaycodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredappointmenttimecode": {
+    "logicalName": "preferredappointmenttimecode",
+    "displayName": "Preferred Time",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Morning"
+      },
+      {
+        "value": 2,
+        "label": "Afternoon"
+      },
+      {
+        "value": 3,
+        "label": "Evening"
+      }
+    ]
+  },
+  "preferredappointmenttimecodename": {
+    "logicalName": "preferredappointmenttimecodename",
+    "displayName": "preferredappointmenttimecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredcontactmethodcode": {
+    "logicalName": "preferredcontactmethodcode",
+    "displayName": "Preferred Method of Contact",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Any"
+      },
+      {
+        "value": 2,
+        "label": "Email"
+      },
+      {
+        "value": 3,
+        "label": "Phone"
+      },
+      {
+        "value": 4,
+        "label": "Fax"
+      },
+      {
+        "value": 5,
+        "label": "Mail"
+      }
+    ]
+  },
+  "preferredcontactmethodcodename": {
+    "logicalName": "preferredcontactmethodcodename",
+    "displayName": "preferredcontactmethodcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredequipmentid": {
+    "logicalName": "preferredequipmentid",
+    "displayName": "Preferred Facility/Equipment",
+    "type": "Lookup",
+    "targets": [
+      "equipment"
+    ],
+    "optionset": []
+  },
+  "preferredequipmentidname": {
+    "logicalName": "preferredequipmentidname",
+    "displayName": "preferredequipmentidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredserviceid": {
+    "logicalName": "preferredserviceid",
+    "displayName": "Preferred Service",
+    "type": "Lookup",
+    "targets": [
+      "service"
+    ],
+    "optionset": []
+  },
+  "preferredserviceidname": {
+    "logicalName": "preferredserviceidname",
+    "displayName": "preferredserviceidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredsystemuserid": {
+    "logicalName": "preferredsystemuserid",
+    "displayName": "Preferred User",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "preferredsystemuseridname": {
+    "logicalName": "preferredsystemuseridname",
+    "displayName": "preferredsystemuseridname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "preferredsystemuseridyominame": {
+    "logicalName": "preferredsystemuseridyominame",
+    "displayName": "preferredsystemuseridyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "primarycontactid": {
+    "logicalName": "primarycontactid",
+    "displayName": "Primary Contact",
+    "type": "Lookup",
+    "targets": [
+      "contact"
+    ],
+    "optionset": []
+  },
+  "primarycontactidname": {
+    "logicalName": "primarycontactidname",
+    "displayName": "primarycontactidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "primarycontactidyominame": {
+    "logicalName": "primarycontactidyominame",
+    "displayName": "primarycontactidyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "primarysatoriid": {
+    "logicalName": "primarysatoriid",
+    "displayName": "Primary Satori ID",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "primarytwitterid": {
+    "logicalName": "primarytwitterid",
+    "displayName": "Primary Twitter ID",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "processid": {
+    "logicalName": "processid",
+    "displayName": "Process",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_cars": {
+    "logicalName": "pshb_cars",
+    "displayName": "Cars",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_carsname": {
+    "logicalName": "pshb_carsname",
+    "displayName": "pshb_carsname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_dev1": {
+    "logicalName": "pshb_dev1",
+    "displayName": "Dev1 ",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_dev2": {
+    "logicalName": "pshb_dev2",
+    "displayName": "Dev2",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_multiselectlookup": {
+    "logicalName": "pshb_multiselectlookup",
+    "displayName": "Multiselect lookup",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "revenue": {
+    "logicalName": "revenue",
+    "displayName": "Annual Revenue",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "revenue_base": {
+    "logicalName": "revenue_base",
+    "displayName": "Annual Revenue (Base)",
+    "type": "Money",
+    "targets": [],
+    "optionset": []
+  },
+  "sharesoutstanding": {
+    "logicalName": "sharesoutstanding",
+    "displayName": "Shares Outstanding",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "shippingmethodcode": {
+    "logicalName": "shippingmethodcode",
+    "displayName": "Shipping Method",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "shippingmethodcodename": {
+    "logicalName": "shippingmethodcodename",
+    "displayName": "shippingmethodcodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "sic": {
+    "logicalName": "sic",
+    "displayName": "SIC Code",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "slaid": {
+    "logicalName": "slaid",
+    "displayName": "SLA",
+    "type": "Lookup",
+    "targets": [
+      "sla"
+    ],
+    "optionset": []
+  },
+  "slainvokedid": {
+    "logicalName": "slainvokedid",
+    "displayName": "Last SLA applied",
+    "type": "Lookup",
+    "targets": [
+      "sla"
+    ],
+    "optionset": []
+  },
+  "slainvokedidname": {
+    "logicalName": "slainvokedidname",
+    "displayName": "slainvokedidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "slaname": {
+    "logicalName": "slaname",
+    "displayName": "slaname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "stageid": {
+    "logicalName": "stageid",
+    "displayName": "(Deprecated) Process Stage",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "statecode": {
+    "logicalName": "statecode",
+    "displayName": "Status",
+    "type": "State",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Active"
+      },
+      {
+        "value": 1,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statecodename": {
+    "logicalName": "statecodename",
+    "displayName": "statecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "statuscode": {
+    "logicalName": "statuscode",
+    "displayName": "Status Reason",
+    "type": "Status",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Active"
+      },
+      {
+        "value": 2,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statuscodename": {
+    "logicalName": "statuscodename",
+    "displayName": "statuscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "stockexchange": {
+    "logicalName": "stockexchange",
+    "displayName": "Stock Exchange",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "teamsfollowed": {
+    "logicalName": "teamsfollowed",
+    "displayName": "TeamsFollowed",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "telephone1": {
+    "logicalName": "telephone1",
+    "displayName": "Main Phone",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "telephone2": {
+    "logicalName": "telephone2",
+    "displayName": "Other Phone",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "telephone3": {
+    "logicalName": "telephone3",
+    "displayName": "Telephone 3",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "territorycode": {
+    "logicalName": "territorycode",
+    "displayName": "Territory Code",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Default Value"
+      }
+    ]
+  },
+  "territorycodename": {
+    "logicalName": "territorycodename",
+    "displayName": "territorycodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "territoryid": {
+    "logicalName": "territoryid",
+    "displayName": "Territory",
+    "type": "Lookup",
+    "targets": [
+      "territory"
+    ],
+    "optionset": []
+  },
+  "territoryidname": {
+    "logicalName": "territoryidname",
+    "displayName": "territoryidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "tickersymbol": {
+    "logicalName": "tickersymbol",
+    "displayName": "Ticker Symbol",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "timespentbymeonemailandmeetings": {
+    "logicalName": "timespentbymeonemailandmeetings",
+    "displayName": "Time Spent by me",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "timezoneruleversionnumber": {
+    "logicalName": "timezoneruleversionnumber",
+    "displayName": "Time Zone Rule Version Number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "transactioncurrencyid": {
+    "logicalName": "transactioncurrencyid",
+    "displayName": "Currency",
+    "type": "Lookup",
+    "targets": [
+      "transactioncurrency"
+    ],
+    "optionset": []
+  },
+  "transactioncurrencyidname": {
+    "logicalName": "transactioncurrencyidname",
+    "displayName": "transactioncurrencyidname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "traversedpath": {
+    "logicalName": "traversedpath",
+    "displayName": "(Deprecated) Traversed Path",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "utcconversiontimezonecode": {
+    "logicalName": "utcconversiontimezonecode",
+    "displayName": "UTC Conversion Time Zone Code",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "versionnumber": {
+    "logicalName": "versionnumber",
+    "displayName": "Version Number",
+    "type": "BigInt",
+    "targets": [],
+    "optionset": []
+  },
+  "websiteurl": {
+    "logicalName": "websiteurl",
+    "displayName": "Website",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "yominame": {
+    "logicalName": "yominame",
+    "displayName": "Yomi Account Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  }
+}

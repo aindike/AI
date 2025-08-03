@@ -1,0 +1,9 @@
+{
+  "msdynmkt_virtualsegment": "msdynmkt_virtualsegment",
+  "segment": "msdynmkt_virtualsegment",
+  "msevtmgt_event": "msevtmgt_event",
+  "event": "msevtmgt_event",
+  "account": "account",
+  "pshb_eventconfig": "pshb_eventconfig",
+  "event config": "pshb_eventconfig"
+}

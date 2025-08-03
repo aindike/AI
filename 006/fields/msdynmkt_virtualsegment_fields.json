@@ -1,0 +1,281 @@
+{
+  "msdynmkt_baseentity": {
+    "logicalName": "msdynmkt_baseentity",
+    "displayName": "Base entity",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_createdby": {
+    "logicalName": "msdynmkt_createdby",
+    "displayName": "Created by",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_createddate": {
+    "logicalName": "msdynmkt_createddate",
+    "displayName": "Created date",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_description": {
+    "logicalName": "msdynmkt_description",
+    "displayName": "Description",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_lastupdated": {
+    "logicalName": "msdynmkt_lastupdated",
+    "displayName": "Last update",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_lastused": {
+    "logicalName": "msdynmkt_lastused",
+    "displayName": "Last used in journey",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_lastusedby": {
+    "logicalName": "msdynmkt_lastusedby",
+    "displayName": "Last used by",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "msdynmkt_lastusedbyname": {
+    "logicalName": "msdynmkt_lastusedbyname",
+    "displayName": "msdynmkt_lastusedbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_lastusedbyyominame": {
+    "logicalName": "msdynmkt_lastusedbyyominame",
+    "displayName": "msdynmkt_lastusedbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_membercount": {
+    "logicalName": "msdynmkt_membercount",
+    "displayName": "Members",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_name": {
+    "logicalName": "msdynmkt_name",
+    "displayName": "Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_owningbusinessunit": {
+    "logicalName": "msdynmkt_owningbusinessunit",
+    "displayName": "Business unit",
+    "type": "Lookup",
+    "targets": [
+      "businessunit"
+    ],
+    "optionset": []
+  },
+  "msdynmkt_owningbusinessunitname": {
+    "logicalName": "msdynmkt_owningbusinessunitname",
+    "displayName": "msdynmkt_owningbusinessunitname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_publishedjourneycount": {
+    "logicalName": "msdynmkt_publishedjourneycount",
+    "displayName": "Live journeys",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_requiresexport": {
+    "logicalName": "msdynmkt_requiresexport",
+    "displayName": "Requires export",
+    "type": "Boolean",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_requiresexportname": {
+    "logicalName": "msdynmkt_requiresexportname",
+    "displayName": "msdynmkt_requiresexportname",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_segmentdetails": {
+    "logicalName": "msdynmkt_segmentdetails",
+    "displayName": "Segment details",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_source": {
+    "logicalName": "msdynmkt_source",
+    "displayName": "Source",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Customer Insights - Data"
+      },
+      {
+        "value": 1,
+        "label": "Dynamics 365 Marketing (outbound)"
+      },
+      {
+        "value": 2,
+        "label": "Customer Insights - Journeys"
+      }
+    ]
+  },
+  "msdynmkt_sourceentity": {
+    "logicalName": "msdynmkt_sourceentity",
+    "displayName": "Source entity",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_sourceentityid": {
+    "logicalName": "msdynmkt_sourceentityid",
+    "displayName": "Source entity id",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_sourcename": {
+    "logicalName": "msdynmkt_sourcename",
+    "displayName": "msdynmkt_sourcename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_sourceuri": {
+    "logicalName": "msdynmkt_sourceuri",
+    "displayName": "Source Uri",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_statecode": {
+    "logicalName": "msdynmkt_statecode",
+    "displayName": "Status",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Active"
+      },
+      {
+        "value": 1,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "msdynmkt_statecodename": {
+    "logicalName": "msdynmkt_statecodename",
+    "displayName": "msdynmkt_statecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_statuscode": {
+    "logicalName": "msdynmkt_statuscode",
+    "displayName": "Status Reason",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Ready to use"
+      },
+      {
+        "value": 1,
+        "label": "Draft"
+      },
+      {
+        "value": 2,
+        "label": "Deactivated"
+      },
+      {
+        "value": 3,
+        "label": "Getting ready"
+      },
+      {
+        "value": 4,
+        "label": "Completed with warnings"
+      },
+      {
+        "value": 5,
+        "label": "Stopping"
+      },
+      {
+        "value": 6,
+        "label": "Stopped"
+      }
+    ]
+  },
+  "msdynmkt_statuscodename": {
+    "logicalName": "msdynmkt_statuscodename",
+    "displayName": "msdynmkt_statuscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_type": {
+    "logicalName": "msdynmkt_type",
+    "displayName": "Type",
+    "type": "Picklist",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Unknown"
+      },
+      {
+        "value": 1,
+        "label": "Static"
+      },
+      {
+        "value": 2,
+        "label": "Dynamic"
+      },
+      {
+        "value": 3,
+        "label": "Compound"
+      },
+      {
+        "value": 4,
+        "label": "Expansion"
+      }
+    ]
+  },
+  "msdynmkt_typename": {
+    "logicalName": "msdynmkt_typename",
+    "displayName": "msdynmkt_typename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "msdynmkt_virtualsegmentid": {
+    "logicalName": "msdynmkt_virtualsegmentid",
+    "displayName": "Segment",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "createdby": {
+    "logicalName": "createdby",
+    "displayName": "Created By",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdbyname": {
+    "logicalName": "createdbyname",
+    "displayName": "createdbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdbyyominame": {
+    "logicalName": "createdbyyominame",
+    "displayName": "createdbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdon": {
+    "logicalName": "createdon",
+    "displayName": "Created On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfby": {
+    "logicalName": "createdonbehalfby",
+    "displayName": "Created By (Delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "createdonbehalfbyname": {
+    "logicalName": "createdonbehalfbyname",
+    "displayName": "createdonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "createdonbehalfbyyominame": {
+    "logicalName": "createdonbehalfbyyominame",
+    "displayName": "createdonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "importsequencenumber": {
+    "logicalName": "importsequencenumber",
+    "displayName": "Import Sequence Number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedby": {
+    "logicalName": "modifiedby",
+    "displayName": "Modified By",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedbyname": {
+    "logicalName": "modifiedbyname",
+    "displayName": "modifiedbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedbyyominame": {
+    "logicalName": "modifiedbyyominame",
+    "displayName": "modifiedbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedon": {
+    "logicalName": "modifiedon",
+    "displayName": "Modified On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfby": {
+    "logicalName": "modifiedonbehalfby",
+    "displayName": "Modified By (Delegate)",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "modifiedonbehalfbyname": {
+    "logicalName": "modifiedonbehalfbyname",
+    "displayName": "modifiedonbehalfbyname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "modifiedonbehalfbyyominame": {
+    "logicalName": "modifiedonbehalfbyyominame",
+    "displayName": "modifiedonbehalfbyyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "overriddencreatedon": {
+    "logicalName": "overriddencreatedon",
+    "displayName": "Record Created On",
+    "type": "DateTime",
+    "targets": [],
+    "optionset": []
+  },
+  "ownerid": {
+    "logicalName": "ownerid",
+    "displayName": "Owner",
+    "type": "Owner",
+    "targets": [
+      "systemuser",
+      "team"
+    ],
+    "optionset": []
+  },
+  "owneridname": {
+    "logicalName": "owneridname",
+    "displayName": "owneridname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridtype": {
+    "logicalName": "owneridtype",
+    "displayName": "owneridtype",
+    "type": "EntityName",
+    "targets": [],
+    "optionset": []
+  },
+  "owneridyominame": {
+    "logicalName": "owneridyominame",
+    "displayName": "owneridyominame",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owningbusinessunit": {
+    "logicalName": "owningbusinessunit",
+    "displayName": "Owning Business Unit",
+    "type": "Lookup",
+    "targets": [
+      "businessunit"
+    ],
+    "optionset": []
+  },
+  "owningbusinessunitname": {
+    "logicalName": "owningbusinessunitname",
+    "displayName": "owningbusinessunitname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "owningteam": {
+    "logicalName": "owningteam",
+    "displayName": "Owning Team",
+    "type": "Lookup",
+    "targets": [
+      "team"
+    ],
+    "optionset": []
+  },
+  "owninguser": {
+    "logicalName": "owninguser",
+    "displayName": "Owning User",
+    "type": "Lookup",
+    "targets": [
+      "systemuser"
+    ],
+    "optionset": []
+  },
+  "pshb_event": {
+    "logicalName": "pshb_event",
+    "displayName": "Event",
+    "type": "Lookup",
+    "targets": [
+      "msevtmgt_event"
+    ],
+    "optionset": []
+  },
+  "pshb_eventconfigid": {
+    "logicalName": "pshb_eventconfigid",
+    "displayName": "Event Config",
+    "type": "Uniqueidentifier",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_eventname": {
+    "logicalName": "pshb_eventname",
+    "displayName": "pshb_eventname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_name": {
+    "logicalName": "pshb_name",
+    "displayName": "Name",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "pshb_segment": {
+    "logicalName": "pshb_segment",
+    "displayName": "Segment",
+    "type": "Lookup",
+    "targets": [
+      "msdynmkt_virtualsegment"
+    ],
+    "optionset": []
+  },
+  "pshb_segmentname": {
+    "logicalName": "pshb_segmentname",
+    "displayName": "pshb_segmentname",
+    "type": "String",
+    "targets": [],
+    "optionset": []
+  },
+  "statecode": {
+    "logicalName": "statecode",
+    "displayName": "Status",
+    "type": "State",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 0,
+        "label": "Active"
+      },
+      {
+        "value": 1,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statecodename": {
+    "logicalName": "statecodename",
+    "displayName": "statecodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "statuscode": {
+    "logicalName": "statuscode",
+    "displayName": "Status Reason",
+    "type": "Status",
+    "targets": [],
+    "optionset": [
+      {
+        "value": 1,
+        "label": "Active"
+      },
+      {
+        "value": 2,
+        "label": "Inactive"
+      }
+    ]
+  },
+  "statuscodename": {
+    "logicalName": "statuscodename",
+    "displayName": "statuscodename",
+    "type": "Virtual",
+    "targets": [],
+    "optionset": []
+  },
+  "timezoneruleversionnumber": {
+    "logicalName": "timezoneruleversionnumber",
+    "displayName": "Time Zone Rule Version Number",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "utcconversiontimezonecode": {
+    "logicalName": "utcconversiontimezonecode",
+    "displayName": "UTC Conversion Time Zone Code",
+    "type": "Integer",
+    "targets": [],
+    "optionset": []
+  },
+  "versionnumber": {
+    "logicalName": "versionnumber",
+    "displayName": "Version Number",
+    "type": "BigInt",
+    "targets": [],
+    "optionset": []
+  }
+}
